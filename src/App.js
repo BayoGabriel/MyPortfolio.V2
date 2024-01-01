@@ -1,6 +1,7 @@
 import "./index.css"
 import NavBar from "../src/Components/NavBar"
 import Preloader from "./Components/Preloader";
+import Banner from "./Components/Hero"
 
 import React, { useState, useEffect } from 'react';
 
@@ -26,6 +27,7 @@ const App = () => {
         
         <div className="main-content">
           <NavBar />
+          <Banner />
         </div>
       )}
     </div>
