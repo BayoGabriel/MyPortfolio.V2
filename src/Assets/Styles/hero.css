@@ -20,14 +20,13 @@
 	top: 0px;
 	bottom: 0px;
 	left: 0px;
+    border: 20px solid #9b9797 ;
 	right: 0px;
 	background-repeat: no-repeat;
 	background-position:center;
 	background-size: cover;
 	animation: morph 8s ease-in-out infinite;
 	background-blend-mode: multiply;
-	-webkit-box-shadow: inset 0px 0px 0px 18px rgba(255,255,255,.8);
-    -moz-box-shadow: inset 0px 0px 0px 18px rgba(255,255,255,.8);
     box-shadow: inset 0px 0px 0px 18px rgba(255,255,255,.8);
 }
 

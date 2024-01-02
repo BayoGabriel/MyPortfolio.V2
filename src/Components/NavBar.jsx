@@ -12,12 +12,12 @@ function MyNav() {
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
-            <Nav.Link href="#home">Service</Nav.Link>
-            <Nav.Link href="#link">Portfolio</Nav.Link>
-            <Nav.Link href="#home">Timeline</Nav.Link>
-            <Nav.Link href="#link">Testimonial</Nav.Link>
-            <Nav.Link href="#link">Contact</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#service">Service</Nav.Link>
+            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="#timeline">Timeline</Nav.Link>
+            <Nav.Link href="#test">Testimonial</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
