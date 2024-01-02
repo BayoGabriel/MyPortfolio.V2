@@ -12,16 +12,16 @@ const Hero = () => {
                 <div className="col-lg-6 image">
                 <img src={banner} className='main' alt="" />
                 </div>
-              <div className="col-lg-6 text">
-                <h3 className="stroke">Gabriel</h3>
-                <h3>Bayode</h3>
-                <div className="job">
-                <span>FrontEnd Design</span><span>BackEnd Development</span><span>API</span>
+                <div className="col-lg-6 text">
+                  <h3 className="stroke">Gabriel</h3>
+                  <h3>Bayode</h3>
+                  <div className="job">
+                  <span>FrontEnd Design</span><span>BackEnd Development</span><span>API</span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
         </div>
         </div>
     </div>
