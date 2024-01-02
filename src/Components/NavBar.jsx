@@ -2,10 +2,11 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Logo from "../Assets/Images/gabriel-high-resolution-logo-transparent.png"
+import "../Assets/Styles/nav.css"
 
 function MyNav() {
   return (
-    <Navbar expand="lg" className="" fixed="top">
+    <Navbar expand="lg" className="idan" fixed="top">
       <Container>
         <Navbar.Brand href="#home"><img src={Logo} className='logo' alt="logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
