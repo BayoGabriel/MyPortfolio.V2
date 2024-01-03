@@ -20,7 +20,6 @@ const App = () => {
   return (
     <div className="app">
       {loading ? (
-        
         <div className="preloader">
           <Preloader/>
         </div>

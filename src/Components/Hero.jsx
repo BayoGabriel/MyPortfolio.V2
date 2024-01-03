@@ -9,13 +9,13 @@ const Hero = () => {
           <div className="col-lg-6 image">
             <img src={banner} className='main' alt="" />
           </div>
-          <div className="col-lg-6 text">
+          {/* <div className="col-lg-6 text">
             <h3 class="stroke">Gabriel</h3>
             <h3>Bayode</h3>
             <div class="job">
             <span>FrontEnd Design</span><span>BackEnd Development</span><span>API</span>
             </div>
-          </div>
+          </div> */}
       </div>
     </div>
    </div>
