@@ -1,38 +1,25 @@
 import React from "react";
-import Accordion from 'react-bootstrap/Accordion';
+import "../Assets/Styles/about.css"
 
 const About = () => {
     return (
         <div>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 left">
+                        <div class="about_title">
                         <span>Gabriel Bayode</span>
                         <h3>FullStack Developer since 2022</h3>
-                        <p>"I'm Gabriel Bayode, a seasoned full-stack developer with a strong passion and commitment to my craft. With 3 years of professional experience in the field, I possess the skills and expertise needed to ensure the success of your project. I find fulfillment in every aspect of the development process, from initial discussions to collaborative efforts."</p>
-                        <button>Download CV</button>
+                        </div>
+                        <div class="text">
+                        <p>My name is Erling Walton and I am a UI Designer, and I'm very passionate and dedicated to my work. With 3 years experience as a professional UI designer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>
+                        </div>
+                        <div class="about_btn">
+                        <a href="img/cv/1.jpg" download="">Download CV</a>
+                        </div>
                     </div>
                     <div className="col-lg-6">
-                        <Accordion defaultActiveKey="0">
-                        <Accordion.Item eventKey="0">
-                            <Accordion.Header>Accordion Item #1</Accordion.Header>
-                            <Accordion.Body>
-                                <div></div>
-                            </Accordion.Body>
-                        </Accordion.Item>
-                        <Accordion.Item eventKey="1">
-                            <Accordion.Header>Accordion Item #2</Accordion.Header>
-                            <Accordion.Body>
-                                <div></div>
-                            </Accordion.Body>
-                        </Accordion.Item>
-                        <Accordion.Item eventKey="2">
-                            <Accordion.Header>Accordion Item #3</Accordion.Header>
-                            <Accordion.Body>
-                                <div></div>
-                            </Accordion.Body>
-                        </Accordion.Item>
-                        </Accordion>
+                        
                     </div>
                 </div>
             </div>
