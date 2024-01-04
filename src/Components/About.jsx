@@ -75,7 +75,11 @@ const About = () => {
                             <CustomToggle eventKey="2" className="tit">BackEnd Stack</CustomToggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="2">
-                            <Card.Body>Hello! I'm another body</Card.Body>
+                            <Card.Body>
+                                <div className="second">
+                                    
+                                </div>
+                            </Card.Body>
                             </Accordion.Collapse>
                         </Card>
                         </Accordion>
