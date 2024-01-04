@@ -44,7 +44,7 @@
 	 -webkit-text-stroke: 1px #000;
 }
 .hero_container .text h3{
-	font-size: 7rem;
+	font-size: 70px;
 	font-weight: 800;
 	line-height: 1.1;
 	text-transform: uppercase;
@@ -61,20 +61,9 @@
 	padding-right: 15px;
 	margin-right: 10px;
 }
-.hero_container .job span:after{
-	content: "";
-	width: 6px;
-	height: 6px;
+.hero_container .job .dot {
 	background-color: rgba(0,0,0,.15);
-	right: 0px;
-	top: 50%;
-	transform: translateY(-50%);
-	border-radius: 100%;
-}
-.hero_container .job span:last-child{
-	margin: 0px;
-	padding: 0px;
-}
-.hero_container .job span:last-child:after{
-	display: none;
-}
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+} 
