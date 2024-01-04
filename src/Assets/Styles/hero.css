@@ -57,13 +57,7 @@
 	margin-top: 30px;
 }
 .hero_container .job span{
-	display: inline-block;
 	padding-right: 15px;
 	margin-right: 10px;
+	margin-bottom: 10px;
 }
-.hero_container .job .dot {
-	background-color: rgba(0,0,0,.15);
-	border-radius: 50%;
-	width: 10px;
-	height: 10px;
-} 

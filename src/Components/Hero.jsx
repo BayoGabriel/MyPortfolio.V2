@@ -13,7 +13,7 @@ const Hero = () => {
             <h3 class="stroke">Gabriel</h3>
             <h3>Bayode</h3>
             <div class="job">
-            <span>FrontEnd Design</span><span className="dot"></span><span>BackEnd Development</span><span className="dot"></span><span>API</span>
+            <span>FullStack Developer</span>
             </div>
           </div>
       </div>
