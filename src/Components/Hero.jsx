@@ -4,7 +4,7 @@ import "../Assets/Styles/hero.css"
 const Hero = () => {
   return (
    <div>
-    <div className="container hero_container">
+    <div className="container hero_container" id='home'>
       <div className="row details">
           <div className="col-lg-6 image">
             <img src={banner} className='main' alt="" />
