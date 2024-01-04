@@ -64,7 +64,9 @@ const About = () => {
                             </Card.Header>
                             <Accordion.Collapse eventKey="1">
                             <Card.Body>
-                                
+                                <div className="first">
+                                    
+                                </div>
                             </Card.Body>
                             </Accordion.Collapse>
                         </Card>
