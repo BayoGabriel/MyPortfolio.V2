@@ -7,6 +7,8 @@ import html from "../Assets/Images/html.ed6aaa50.svg"
 import css from "../Assets/Images/css.e5e99f36.svg"
 import bootstrap from "../Assets/Images/icons8-bootstrap.svg"
 import javascript from "../Assets/Images/javascript.b472cbc1.svg"
+import rn from "../Assets/Images/react.512a3a7e.svg"
+import redux from"../Assets/Images/redux.2fdafc8e.svg"
 import express from "../Assets/Images/express-js.1f78831a.svg"
 import react from "../Assets/Images/react.svg"
 import ProgressBar  from "react-bootstrap/ProgressBar";
@@ -88,7 +90,15 @@ const About = () => {
                                         <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                     <div className="ass">
-                                        <img src={react} alt="svf" /> <span>React</span>
+                                        <img src={react} alt="svf" /> <span>React.js</span>
+                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                    </div>
+                                    <div className="ass">
+                                        <img src={rn} alt="svf" /> <span>React Native</span>
+                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                    </div>
+                                    <div className="ass">
+                                        <img src={redux} alt="svf" /> <span>Redux</span>
                                         <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                 </div>
@@ -101,9 +111,34 @@ const About = () => {
                             </Card.Header>
                             <Accordion.Collapse eventKey="2">
                             <Card.Body>
-                                <div className="second">
+                            <div className="first">
                                     <div className="ass">
-                                        <img src={express} alt="exp" />
+                                        <img src={express} alt="svf" /> <span>Express.js</span>
+                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                    </div>
+                                    <div className="ass">
+                                        <img src={css} alt="svf" /> <span>Css</span>
+                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                    </div>
+                                    <div className="ass">
+                                        <img src={bootstrap} alt="svf" /> <span>Bootstrap</span>
+                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                    </div>
+                                    <div className="ass">
+                                        <img src={javascript} alt="svf" /> <span>JavaScript</span>
+                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                    </div>
+                                    <div className="ass">
+                                        <img src={react} alt="svf" /> <span>React</span>
+                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                    </div>
+                                    <div className="ass">
+                                        <img src={rn} alt="svf" /> <span>React Native</span>
+                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                    </div>
+                                    <div className="ass">
+                                        <img src={redux} alt="svf" /> <span>Redux</span>
+                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                 </div>
                             </Card.Body>
