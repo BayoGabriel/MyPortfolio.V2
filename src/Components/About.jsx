@@ -9,6 +9,7 @@ import bootstrap from "../Assets/Images/icons8-bootstrap.svg"
 import javascript from "../Assets/Images/javascript.b472cbc1.svg"
 import express from "../Assets/Images/express-js.1f78831a.svg"
 import react from "../Assets/Images/react.svg"
+import ProgressBar  from "react-bootstrap/ProgressBar";
 
 function CustomToggle({ children, eventKey }) {
     const decoratedOnClick = useAccordionButton(eventKey, () =>
@@ -71,19 +72,24 @@ const About = () => {
                             <Card.Body>
                                 <div className="first">
                                     <div className="ass">
-                                        <img src={html} alt="svf" />
+                                        <img src={html} alt="svf" /> <span>Html</span>
+                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                     <div className="ass">
-                                        <img src={css} alt="svf" />
+                                        <img src={css} alt="svf" /> <span>Css</span>
+                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                     <div className="ass">
-                                        <img src={bootstrap} alt="svf" />
+                                        <img src={bootstrap} alt="svf" /> <span>Bootstrap</span>
+                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                     <div className="ass">
-                                        <img src={javascript} alt="svf" />
+                                        <img src={javascript} alt="svf" /> <span>JavaScript</span>
+                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                     <div className="ass">
-                                        <img src={react} alt="svf" />
+                                        <img src={react} alt="svf" /> <span>React</span>
+                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                 </div>
                             </Card.Body>
