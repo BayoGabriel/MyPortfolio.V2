@@ -59,7 +59,7 @@ const About = () => {
                     </div>
                     <div className="col-lg-6 right">
                         <Accordion defaultActiveKey="0">
-                            <Card className="each" data-aos="zoom-in-left">
+                            <Card className="each">
                             <Card.Header className="header">
                             <CustomToggle eventKey="0" className="tit">Front-End Stack</CustomToggle>
                             </Card.Header>
@@ -98,7 +98,7 @@ const About = () => {
                             </Card.Body>
                             </Accordion.Collapse>
                         </Card>
-                        <Card className="each" data-aos="zoom-out">
+                        <Card className="each">
                             <Card.Header className="header">
                             <CustomToggle eventKey="1" className="tit">Back-End Stack</CustomToggle>
                             </Card.Header>
@@ -129,7 +129,7 @@ const About = () => {
                             </Card.Body>
                             </Accordion.Collapse>
                         </Card>
-                        <Card className="each" data-aos="zoom-out">
+                        <Card className="each">
                             <Card.Header className="header">
                             <CustomToggle eventKey="2" className="tit">Others</CustomToggle>
                             </Card.Header>
