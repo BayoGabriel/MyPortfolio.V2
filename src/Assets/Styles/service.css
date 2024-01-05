@@ -1,0 +1,15 @@
+.details {
+    width: 100%;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.item img {
+    width: 3rem;
+    color: blue;
+}
+.item img:hover {
+    color: black;
+}

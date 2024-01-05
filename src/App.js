@@ -4,6 +4,7 @@ import Preloader from "./Components/Preloader";
 import Banner from "./Components/Hero"
 import React, { useState, useEffect } from 'react';
 import About from "./Components/About";
+import Services from "./Components/Services";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -28,6 +29,7 @@ const App = () => {
           <NavBar />
           <Banner />
           <About />
+          <Services />
         </div>
       )}
     </div>
