@@ -57,34 +57,13 @@ const About = () => {
                         <a href="../Assets/Bayode_Gabriel_CV.pdf" download="">Download CV</a>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 right">
                         <Accordion defaultActiveKey="0">
-                        <Card className="each">
+                            <Card className="each">
                             <Card.Header className="header">
-                            <CustomToggle eventKey="0" className="tit">Personal Details</CustomToggle>
+                            <CustomToggle eventKey="0" className="tit">Front-End Stack</CustomToggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="0">
-                            <Card.Body>
-                                <div className="item">
-                                    <span className="one">Name:</span>
-                                    <span className="two">Bayode Gabriel</span>
-                                </div>
-                                <div className="item">
-                                    <span className="one">Email:</span>
-                                    <span className="two">Bayogabriel24@gmail.com</span>
-                                </div>
-                                <div className="item">
-                                    <span className="one">Phone:</span>
-                                    <span className="two">+2347068414104</span>
-                                </div>
-                            </Card.Body>
-                            </Accordion.Collapse>
-                        </Card>
-                        <Card className="each">
-                            <Card.Header className="header">
-                            <CustomToggle eventKey="1" className="tit">Front-End Stack</CustomToggle>
-                            </Card.Header>
-                            <Accordion.Collapse eventKey="1">
                             <Card.Body>
                                 <div className="first">
                                     <div className="ass">
@@ -121,9 +100,9 @@ const About = () => {
                         </Card>
                         <Card className="each">
                             <Card.Header className="header">
-                            <CustomToggle eventKey="2" className="tit">Back-End Stack</CustomToggle>
+                            <CustomToggle eventKey="1" className="tit">Back-End Stack</CustomToggle>
                             </Card.Header>
-                            <Accordion.Collapse eventKey="2">
+                            <Accordion.Collapse eventKey="1">
                             <Card.Body>
                             <div className="first">
                                     <div className="ass">
@@ -152,9 +131,9 @@ const About = () => {
                         </Card>
                         <Card className="each">
                             <Card.Header className="header">
-                            <CustomToggle eventKey="3" className="tit">Others</CustomToggle>
+                            <CustomToggle eventKey="2" className="tit">Others</CustomToggle>
                             </Card.Header>
-                            <Accordion.Collapse eventKey="3">
+                            <Accordion.Collapse eventKey="2">
                             <Card.Body>
                             <div className="first">
                                     <div className="ass">

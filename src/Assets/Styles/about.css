@@ -1,8 +1,5 @@
-.about_section{
-	width: 100%;
-	background-color: #f7f7f7;
-	padding: 143px 0px;
-    margin-top: 5rem;
+#about {
+	padding: 25px;
 }
 .about_title{
 	width: 100%;
@@ -54,9 +51,26 @@
 	width: 100%;
 	margin-bottom: 10px;
 }
+.right .each .header {
+	height: 4rem;
+	display: flex;
+	background-color: #eaeaea;
+	color: #000000;
+	align-items: center;
+	font-weight: 500;
+	font-size: 24px;
+}
+
 .item {
 	display: flex;
-	padding: 10px;
+	padding: 15px;
+	margin-left: 10px;
+}
+.right {
+	max-height: 100%;
+}
+.item .two {
+	margin-left: 50px;
 }
 .first .ass img {
 	width: 1rem;
