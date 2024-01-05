@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="container hero_container" id='home'>
       <div className="row details">
           <div className="col-lg-6 image">
-            <img src={banner} className='main' alt="" />
+            <img src={banner} className='main' alt="ghty" />
           </div>
           <div className="col-lg-6 text">
             <h3 class="stroke">Gabriel</h3>

@@ -44,7 +44,7 @@ const About = () => {
     return (
         <div>
             <div className="container" id="about" data-aos="fade-up">
-                <div className="row" data-aos-duration="3000">
+                <div className="row detail" data-aos-duration="3000">
                     <div className="col-lg-6 left">
                         <div class="about_title">
                         <span>Gabriel Bayode</span>
@@ -59,7 +59,7 @@ const About = () => {
                     </div>
                     <div className="col-lg-6 right">
                         <Accordion defaultActiveKey="0">
-                            <Card className="each">
+                            <Card className="each" data-aos="zoom-in-left">
                             <Card.Header className="header">
                             <CustomToggle eventKey="0" className="tit">Front-End Stack</CustomToggle>
                             </Card.Header>
@@ -68,37 +68,37 @@ const About = () => {
                                 <div className="first">
                                     <div className="ass">
                                         <img src={html} alt="svf" /> <span>Html</span>
-                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                     <div className="ass">
                                         <img src={css} alt="svf" /> <span>Css</span>
-                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                     <div className="ass">
                                         <img src={bootstrap} alt="svf" /> <span>Bootstrap</span>
-                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                     <div className="ass">
                                         <img src={javascript} alt="svf" /> <span>JavaScript</span>
-                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                     <div className="ass">
                                         <img src={react} alt="svf" /> <span>React.js</span>
-                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                     <div className="ass">
                                         <img src={rn} alt="svf" /> <span>React Native</span>
-                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                     <div className="ass">
                                         <img src={redux} alt="svf" /> <span>Redux</span>
-                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                 </div>
                             </Card.Body>
                             </Accordion.Collapse>
                         </Card>
-                        <Card className="each">
+                        <Card className="each" data-aos="zoom-out">
                             <Card.Header className="header">
                             <CustomToggle eventKey="1" className="tit">Back-End Stack</CustomToggle>
                             </Card.Header>
@@ -107,29 +107,29 @@ const About = () => {
                             <div className="first">
                                     <div className="ass">
                                         <img src={express} alt="svf" /> <span>Express.js</span>
-                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                     <div className="ass">
                                         <img src={Nodejs} alt="svf" /> <span>Node.js</span>
-                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                     <div className="ass">
                                         <img src={Python} alt="svf" /> <span>Python</span>
-                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                     <div className="ass">
                                         <img src={Flask} alt="svf" /> <span>Flask</span>
-                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                     <div className="ass">
                                         <img src={NoSQL} alt="svf" /> <span>NoSQL (MongoDB)</span>
-                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>                                    
                                 </div>
                             </Card.Body>
                             </Accordion.Collapse>
                         </Card>
-                        <Card className="each">
+                        <Card className="each" data-aos="zoom-out">
                             <Card.Header className="header">
                             <CustomToggle eventKey="2" className="tit">Others</CustomToggle>
                             </Card.Header>
@@ -138,15 +138,15 @@ const About = () => {
                             <div className="first">
                                     <div className="ass">
                                         <img src={git} alt="svf" /> <span>Git</span>
-                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>
                                     <div className="ass">
                                         <img src={github} alt="svf" /> <span>GitHub</span>
-                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>    
                                     <div className="ass">
                                         <img src={ts} alt="svf" /> <span>TypeScript</span>
-                                        <ProgressBar now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                     </div>                            
                                 </div>
                             </Card.Body>

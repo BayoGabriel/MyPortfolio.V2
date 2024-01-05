@@ -1,5 +1,7 @@
 #about {
 	padding: 25px;
+	margin-top: 5rem;
+	display: flex;
 }
 .about_title{
 	width: 100%;
@@ -41,6 +43,7 @@
 	position: relative;
 	border: none;
 	text-decoration: none;
+	margin-bottom: 2.5rem;
 }
 
 .about_btn a:hover{
@@ -59,8 +62,8 @@
 	align-items: center;
 	font-weight: 500;
 	font-size: 24px;
+	cursor: pointer;
 }
-
 .item {
 	display: flex;
 	padding: 15px;
