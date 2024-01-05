@@ -44,7 +44,7 @@ const About = () => {
     return (
         <div>
             <div className="container" id="about" data-aos="fade-up">
-                <div className="row detail" data-aos-duration="3000">
+                <div className="row detail" data-aos-duration="6000">
                     <div className="col-lg-6 left">
                         <div class="about_title">
                         <span>Gabriel Bayode</span>
