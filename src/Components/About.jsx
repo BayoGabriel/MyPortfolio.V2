@@ -65,8 +65,23 @@ const About = () => {
                             </Card.Header>
                             <Accordion.Collapse eventKey="1">
                             <Card.Body>
-                                <div className="first">
-                                    <img src={react} alt="svf" />
+                                <div className="first">                                    
+                                    <div className="ass">
+                                        <img src={react} alt="svf" />
+                                        <ProgressBar now={60} />
+                                    </div>
+                                    <div className="ass">
+                                        <img src={react} alt="svf" />
+                                        <ProgressBar now={60} />
+                                    </div>
+                                    <div className="ass">
+                                        <img src={react} alt="svf" />
+                                        <ProgressBar now={60} />
+                                    </div>
+                                    <div className="ass">
+                                        <img src={react} alt="svf" />
+                                        <ProgressBar now={60} />
+                                    </div>
                                 </div>
                             </Card.Body>
                             </Accordion.Collapse>
