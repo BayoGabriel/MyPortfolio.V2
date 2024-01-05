@@ -3,7 +3,11 @@ import "../Assets/Styles/about.css"
 import Accordion from 'react-bootstrap/Accordion';
 import { useAccordionButton } from 'react-bootstrap/AccordionButton';
 import Card from 'react-bootstrap/Card';
-import ProgressBar from 'react-bootstrap/ProgressBar';
+import html from "../Assets/Images/html.ed6aaa50.svg"
+import css from "../Assets/Images/css.e5e99f36.svg"
+import bootstrap from "../Assets/Images/icons8-bootstrap.svg"
+import javascript from "../Assets/Images/javascript.b472cbc1.svg"
+import express from "../Assets/Images/express-js.1f78831a.svg"
 import react from "../Assets/Images/react.svg"
 
 function CustomToggle({ children, eventKey }) {
@@ -65,22 +69,21 @@ const About = () => {
                             </Card.Header>
                             <Accordion.Collapse eventKey="1">
                             <Card.Body>
-                                <div className="first">                                    
+                                <div className="first">
                                     <div className="ass">
-                                        <img src={react} alt="svf" />
-                                        <ProgressBar now={60} />
+                                        <img src={html} alt="svf" />
+                                    </div>
+                                    <div className="ass">
+                                        <img src={css} alt="svf" />
+                                    </div>
+                                    <div className="ass">
+                                        <img src={bootstrap} alt="svf" />
+                                    </div>
+                                    <div className="ass">
+                                        <img src={javascript} alt="svf" />
                                     </div>
                                     <div className="ass">
                                         <img src={react} alt="svf" />
-                                        <ProgressBar now={60} />
-                                    </div>
-                                    <div className="ass">
-                                        <img src={react} alt="svf" />
-                                        <ProgressBar now={60} />
-                                    </div>
-                                    <div className="ass">
-                                        <img src={react} alt="svf" />
-                                        <ProgressBar now={60} />
                                     </div>
                                 </div>
                             </Card.Body>
@@ -93,7 +96,9 @@ const About = () => {
                             <Accordion.Collapse eventKey="2">
                             <Card.Body>
                                 <div className="second">
-                                    
+                                    <div className="ass">
+                                        <img src={express} alt="exp" />
+                                    </div>
                                 </div>
                             </Card.Body>
                             </Accordion.Collapse>
