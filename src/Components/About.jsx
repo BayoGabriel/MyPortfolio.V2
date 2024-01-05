@@ -4,6 +4,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import { useAccordionButton } from 'react-bootstrap/AccordionButton';
 import Card from 'react-bootstrap/Card';
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import react from "../Assets/Images/react.svg"
 
 function CustomToggle({ children, eventKey }) {
     const decoratedOnClick = useAccordionButton(eventKey, () =>
@@ -65,7 +66,7 @@ const About = () => {
                             <Accordion.Collapse eventKey="1">
                             <Card.Body>
                                 <div className="first">
-                                    
+                                    <img src={react} alt="svf" />
                                 </div>
                             </Card.Body>
                             </Accordion.Collapse>
