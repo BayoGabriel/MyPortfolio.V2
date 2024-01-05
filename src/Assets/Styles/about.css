@@ -54,7 +54,10 @@
 	width: 100%;
 	margin-bottom: 10px;
 }
-
+.item {
+	display: flex;
+	padding: 10px;
+}
 .first .ass img {
 	width: 1rem;
 	height: 1rem;
