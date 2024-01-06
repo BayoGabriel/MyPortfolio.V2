@@ -12,32 +12,32 @@ const Services = () => {
                 <span>Services</span>
                 <h3>Quality Services</h3>
             </div>
-            <div className="row details">
-                <div className="col-lg-4 item">
-                    <img src={design} alt="" />
-                    <h4>Creative Design</h4>
+            <div className="row service_cont">
+                <div className="col-md-3 col-lg-3 col-sm-12 service">
+                    <img src={design} alt="alf" />
+                    <h4>Responsive Design</h4>
                     <hr />
-                    <ul>
-                        <li>Bootstrap</li>
-                        <li>AOS</li>
+                    <ul className='list'>
+                        <li>Css</li>
+                        <li>Javascript(React)</li>
                     </ul>
                 </div>
-                <div className="col-lg-4 item">
-                    <img src={web} alt="" />
+                <div className="col-md-3 col-lg-3 col-sm-12 service">
+                    <img src={web} alt="alf" />
                     <h4>Web Development</h4>
                     <hr />
-                    <ul>
-                        <li>Bootstrap</li>
-                        <li>AOS</li>
+                    <ul className='list'>
+                        <li>Css</li>
+                        <li>Javascript(React)</li>
                     </ul>
                 </div>
-                <div className="col-lg-4 item">
-                    <img src={mobile} alt="" />
-                    <h4>Mobile Developemnt</h4>
+                <div className="col-md-3 col-lg-3 col-sm-12 service">
+                    <img src={mobile} alt="alf" />
+                    <h4>App Development</h4>
                     <hr />
-                    <ul>
-                        <li>Bootstrap</li>
-                        <li>AOS</li>
+                    <ul className='list'>
+                        <li>Css</li>
+                        <li>Javascript(React)</li>
                     </ul>
                 </div>
             </div>
