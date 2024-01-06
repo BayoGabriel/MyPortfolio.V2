@@ -5,6 +5,7 @@ import Banner from "./Components/Hero"
 import React, { useState, useEffect } from 'react';
 import About from "./Components/About";
 import Services from "./Components/Services";
+import Portfolio from "./Components/Portfolio";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -30,6 +31,7 @@ const App = () => {
           <Banner />
           <About />
           <Services />
+          <Portfolio />
         </div>
       )}
     </div>
