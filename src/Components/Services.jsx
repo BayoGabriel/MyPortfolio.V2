@@ -13,18 +13,21 @@ const Services = () => {
                 <h3>Quality Services</h3>
             </div>
             <div className="row service_cont">
-                <div className="col-md-3 col-lg-3 col-sm-12 service">
+                <div className="col-md-4 col-lg-4 col-sm-12 service">
+                    <div className="inner">
                     <img src={design} alt="alf" />
                     <h4>Responsive Design</h4>
                     <hr />
                     <ul className='list'>
-                        <li>Css</li>
+                        <li>span</li>
                         <li>Bootstrap</li>
                         <li>Modern Animations</li>
                     </ul>
+                    </div>
                 </div>
-                <div className="col-md-3 col-lg-3 col-sm-12 service">
-                    <img src={web} alt="alf" />
+                <div className="col-md-4 col-lg-4 col-sm-12 service">
+                   <div className="inner">
+                   <img src={web} alt="alf" />
                     <h4>Web Development</h4>
                     <hr />
                     <ul className='list'>
@@ -32,8 +35,10 @@ const Services = () => {
                         <li>Python(Django)</li>
                         <li>Javascript(React)</li>
                     </ul>
+                   </div>
                 </div>
-                <div className="col-md-3 col-lg-3 col-sm-12 service">
+                <div className="col-md-4 col-lg-4 col-sm-12 service">
+                    <div className="inner">
                     <img src={mobile} alt="alf" />
                     <h4>App Development</h4>
                     <hr />
@@ -42,6 +47,7 @@ const Services = () => {
                         <li>Cross Platform Apps</li>
                         <li>Firebase</li>
                     </ul>
+                    </div>
                 </div>
             </div>
         </div>

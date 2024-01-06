@@ -5,22 +5,17 @@
     display: flex;
     justify-content: space-between;
 }
-.service {
-    width: 100%;
-	height: 100%;
-	position: relative;
-	background-color: #f7f7f7;
-	padding:50px ;
-}
-.service:first-child {
-    margin-left: 0px;
-}
-.service:last-child {
-    margin-right: 0px;
+.service .inner{
+    height: 100%;
+    background-color: #f7f7f7;
+	padding: 70px 50px ;
 }
 .service img {
     width: 53px;
 	height: 53px;
 	color: #999;
 	margin-bottom: 20px;
+}
+.list ul li {
+    list-style-type: none;
 }
