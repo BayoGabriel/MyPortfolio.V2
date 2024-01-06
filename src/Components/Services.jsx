@@ -19,7 +19,8 @@ const Services = () => {
                     <hr />
                     <ul className='list'>
                         <li>Css</li>
-                        <li>Javascript(React)</li>
+                        <li>Bootstrap</li>
+                        <li>Modern Animations</li>
                     </ul>
                 </div>
                 <div className="col-md-3 col-lg-3 col-sm-12 service">
@@ -27,7 +28,8 @@ const Services = () => {
                     <h4>Web Development</h4>
                     <hr />
                     <ul className='list'>
-                        <li>Css</li>
+                        <li>NodeJs</li>
+                        <li>Python(Django)</li>
                         <li>Javascript(React)</li>
                     </ul>
                 </div>
@@ -36,8 +38,9 @@ const Services = () => {
                     <h4>App Development</h4>
                     <hr />
                     <ul className='list'>
-                        <li>Css</li>
-                        <li>Javascript(React)</li>
+                        <li>React-Native</li>
+                        <li>Cross Platform Apps</li>
+                        <li>Firebase</li>
                     </ul>
                 </div>
             </div>
