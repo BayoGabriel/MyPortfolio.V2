@@ -2,6 +2,11 @@ import React from 'react'
 import banner from "../Assets/Images/mybanner.png"
 import "../Assets/Styles/hero.css"
 const Hero = () => {
+
+  const About = () => {
+    useEffect(() => {
+        AOS.init();
+    }, [])
   return (
    <div>
     <div className="container hero_container" id='home'>

@@ -13,7 +13,7 @@ const Services = () => {
                 <h3>Quality Services</h3>
             </div>
             <div className="row service_cont">
-                <div className="col-md-4 col-lg-4 col-sm-12 service">
+                <div className="col-md-6 col-lg-4 col-sm-12 service">
                     <div className="inner">
                     <img src={design} alt="alf" />
                     <h4>Responsive Design</h4>
@@ -25,7 +25,7 @@ const Services = () => {
                     </ul>
                     </div>
                 </div>
-                <div className="col-md-4 col-lg-4 col-sm-12 service">
+                <div className="col-md-6 col-lg-4 col-sm-12 service">
                    <div className="inner">
                    <img src={web} alt="alf" />
                     <h4>Web Development</h4>
@@ -37,7 +37,7 @@ const Services = () => {
                     </ul>
                    </div>
                 </div>
-                <div className="col-md-4 col-lg-4 col-sm-12 service">
+                <div className="col-md-6 col-lg-4 col-sm-12 service">
                     <div className="inner">
                     <img src={mobile} alt="alf" />
                     <h4>App Development</h4>
