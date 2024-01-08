@@ -1,5 +1,6 @@
 .service_section {
     margin-top: 5rem;
+	width: 100%;
 }
 .service_cont {
     display: flex;

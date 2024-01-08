@@ -1,12 +1,5 @@
-/* fonts.css */
-
-@font-face {
-    font-family: 'YourFontName';
-    src: url('../src/Assets/fonts/fontello.eot') format('eot'); /* Adjust the path and format accordingly */
-    font-weight: bold;
-    font-style: normal;
-}
 .logo{
     width: 100%;
     height: 1em;
 }
+
