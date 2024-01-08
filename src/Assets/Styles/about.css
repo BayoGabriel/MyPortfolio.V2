@@ -2,6 +2,10 @@
 	padding: 25px;
 	display: flex;
 }
+.big {
+	background-color: #f7f7f7;
+	padding: 25px;
+}
 .about_title{
 	width: 100%;
 	margin-bottom: 70px;

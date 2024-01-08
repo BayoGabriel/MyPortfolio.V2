@@ -6,6 +6,7 @@ import React, { useState, useEffect } from 'react';
 import About from "./Components/About";
 import Services from "./Components/Services";
 import Portfolio from "./Components/Portfolio";
+import Timeline from "./Components/Timeline";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -32,6 +33,7 @@ const App = () => {
           <About />
           <Services />
           <Portfolio />
+          <Timeline />
         </div>
       )}
     </div>

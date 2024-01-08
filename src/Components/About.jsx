@@ -42,7 +42,7 @@ const About = () => {
         AOS.init();
     }, [])
     return (
-        <div>
+        <div className="big">
             <div className="container" id="about">
                 <div className="row detail">
                     <div className="col-lg-6 left" data-aos="fade-up" data-aos-duration="3000">
