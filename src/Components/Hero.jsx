@@ -11,13 +11,13 @@ const Hero = () => {
     AOS.init();
 }, [])
   return (
-   <div data-aos="fade-up" data-aos-duration="3000">
+   <div>
     <div className="container hero_container" id='home'>
       <div className="row details">
-          <div className="col-lg-6 image">
+          <div className="col-lg-6 image" data-aos="fade-up" data-aos-duration="3000">
             <img src={banner} className='main' alt="ghty" />
           </div>
-          <div className="col-lg-6 text">
+          <div className="col-lg-6 text" data-aos="fade-left" data-aos-duration="3000">
             <h3 class="stroke">Gabriel</h3>
             <h3>Bayode</h3>
             <div class="job">
