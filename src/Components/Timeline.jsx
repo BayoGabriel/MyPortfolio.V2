@@ -3,7 +3,7 @@ import "../Assets/Styles/timeline.css"
 
 const Timeline = () => {
   return (
-    <div>
+    <div id='timeline'>
         <div className="container timeline_section">
             <div className="header">
                 <span>Timeline</span>

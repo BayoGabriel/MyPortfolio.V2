@@ -7,6 +7,8 @@ import About from "./Components/About";
 import Services from "./Components/Services";
 import Portfolio from "./Components/Portfolio";
 import Timeline from "./Components/Timeline";
+import Testimonial from "./Components/Testimonial";
+import Contact from "./Components/Contact";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -34,6 +36,8 @@ const App = () => {
           <Services />
           <Portfolio />
           <Timeline />
+          <Testimonial />
+          <Contact />
         </div>
       )}
     </div>

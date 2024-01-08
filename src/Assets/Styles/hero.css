@@ -1,3 +1,25 @@
+.job {
+	border: 3px solid transparent;
+	animation: border-animation 2s infinite linear;
+  }
+  
+  @keyframes border-animation {
+	0% {
+	  border-top-color: grey;
+	}
+	25% {
+	  border-right-color: grey;
+	}
+	50% {
+	  border-bottom-color: grey;
+	}
+	75% {
+	  border-left-color: grey;
+	}
+	100% {
+	  border-top-color: grey;
+	}
+  }
 .hero_container {
 	height: 100vh;
 	margin-top: 7rem;

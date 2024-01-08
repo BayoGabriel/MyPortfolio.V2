@@ -12,7 +12,7 @@ const Services = () => {
         AOS.init();
     }, [])
   return (
-    <div> 
+    <div id='services'> 
         <div className="container service_section">
             <div className="header" data-aos="fade-up" data-aos-duration="2000">
                 <span>Services</span>
