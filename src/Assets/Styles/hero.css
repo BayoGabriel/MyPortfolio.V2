@@ -24,6 +24,7 @@
 .hero_container {
 	height: 100vh;
 	margin-top: 7rem;
+	width: 100%;
 }
 .hero_container .image {
 	padding: 10px;
@@ -61,7 +62,6 @@
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 5rem;
-	max-width: 100%;
 }
 .hero_container .text .stroke{
 	color: transparent;
