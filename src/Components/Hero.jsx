@@ -11,7 +11,7 @@ const Hero = () => {
     AOS.init();
 }, [])
   return (
-   <div style={{width:"100%"}}>
+   <div>
     <div className="container hero_container" id='home'>
       <div className="row details">
           <div className="col-lg-6 image" data-aos="fade-up" data-aos-duration="3000">
