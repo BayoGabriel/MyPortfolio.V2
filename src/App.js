@@ -31,13 +31,13 @@ const App = () => {
         
         <div className="main-content">
           <NavBar />
-          <Banner />
-          <About />
-          <Services />
-          <Portfolio />
+          {/* <Banner /> */}
+          {/* <About /> */}
+          {/* <Services /> */}
+          {/* <Portfolio />
           <Timeline />
           <Testimonial />
-          <Contact />
+          <Contact /> */}
         </div>
       )}
     </div>
