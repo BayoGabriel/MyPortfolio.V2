@@ -1,6 +1,7 @@
 .job {
 	border: 3px solid transparent;
 	animation: border-animation 2s infinite linear;
+	width: 100%;
   }
   
   @keyframes border-animation {
@@ -23,12 +24,13 @@
 .hero_container {
 	height: 100vh;
 	margin-top: 7rem;
+	width: 100%;
 }
 .hero_container .image {
 	width: 100%;
 	padding: 10px;
-	max-width: 450px;
-	height: 450px;
+	max-width: 400px;
+	height: 400px;
 }
 .hero_container .image .main{
 	top: 0px;
@@ -61,6 +63,7 @@
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 5rem;
+	max-width: 100%;
 }
 .hero_container .text .stroke{
 	color: transparent;
