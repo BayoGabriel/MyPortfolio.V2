@@ -1,5 +1,5 @@
 .job {
-	border: 3px solid transparent;
+	border: 5px solid transparent;
 	animation: border-animation 2s infinite linear;
 	width: 100%;
   }
@@ -35,7 +35,7 @@
 	bottom: 0px;
 	width: 100%;
 	left: 0px;
-    border: 20px solid #9b9797 ;
+    border: 10px solid white ;
 	background-repeat: no-repeat;
 	background-position:center;
 	background-size: cover;
