@@ -28,7 +28,6 @@ const App = () => {
           <Preloader/>
         </div>
       ) : (
-        
         <div className="main-content">
           <NavBar />
           <Banner />
