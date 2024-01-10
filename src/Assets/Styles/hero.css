@@ -4,8 +4,9 @@
 	width: 100%;
   }
   .jobs {
-	width: 100%;
+	width: 100%; 
   }
+  /* trng sht */
   @keyframes border-animation {
 	0% {
 	  border-top-color: grey;
