@@ -20,11 +20,9 @@ const Hero = () => {
           <div className="col-lg-6 text" data-aos="fade-left" data-aos-duration="3000">
             <h3 class="stroke">Gabriel</h3>
             <h3>Bayode</h3>
-            <div class="job">
-            
+            <div class="job">           
             <span>Front-End Design</span><span className="dot">+</span><span>Back-End Development</span>
             </div>
-
           </div>
       </div>
     </div>
