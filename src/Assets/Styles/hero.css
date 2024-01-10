@@ -3,7 +3,9 @@
 	animation: border-animation 2s infinite linear;
 	width: 100%;
   }
-  
+  .jobs {
+	width: 100%;
+  }
   @keyframes border-animation {
 	0% {
 	  border-top-color: grey;
