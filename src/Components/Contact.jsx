@@ -67,7 +67,7 @@ const Contact = () => {
                         </Card>
                         <Card className="each">
                             <Card.Header className="header">
-                            <CustomToggle eventKey="4" className="tit"></CustomToggle>
+                            <CustomToggle eventKey="4" className="tit">LOCATION</CustomToggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="4">
                             <Card.Body>
