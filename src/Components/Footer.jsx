@@ -6,6 +6,7 @@ const Footer = () => {
     <div>
         <div className='container-fluid'>
         <img src={logo} alt="logo" />
+        <h5>Built by Gabriel</h5>
         </div>
     </div>
   )
