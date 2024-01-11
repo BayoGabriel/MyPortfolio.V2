@@ -56,6 +56,24 @@ const Contact = () => {
                             </Card.Body>
                             </Accordion.Collapse>
                         </Card>
+                        <Card className="each">
+                            <Card.Header className="header">
+                            <CustomToggle eventKey="3" className="tit">FILL A FORM</CustomToggle>
+                            </Card.Header>
+                            <Accordion.Collapse eventKey="3">
+                            <Card.Body>
+                            </Card.Body>
+                            </Accordion.Collapse>
+                        </Card>
+                        <Card className="each">
+                            <Card.Header className="header">
+                            <CustomToggle eventKey="4" className="tit"></CustomToggle>
+                            </Card.Header>
+                            <Accordion.Collapse eventKey="4">
+                            <Card.Body>
+                            </Card.Body>
+                            </Accordion.Collapse>
+                        </Card>
                         </Accordion>
         </div>
     </div>
