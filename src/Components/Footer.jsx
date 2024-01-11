@@ -4,7 +4,9 @@ import logo from  '../Assets/Images/logo.jpg'
 const Footer = () => {
   return (
     <div>
-        <div cla></div>
+        <div className='container-fluid'>
+        <img src={logo} alt="logo" />
+        </div>
     </div>
   )
 }
