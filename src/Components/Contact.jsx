@@ -49,7 +49,7 @@ const Contact = () => {
                         </Card>
                         <Card className="each">
                             <Card.Header className="header">
-                            <CustomToggle eventKey="2" className="tit">Others</CustomToggle>
+                            <CustomToggle eventKey="2" className="tit">EXTRA INFO</CustomToggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="2">
                             <Card.Body>
