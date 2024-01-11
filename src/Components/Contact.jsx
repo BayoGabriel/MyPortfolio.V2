@@ -1,7 +1,6 @@
 import React from 'react'
 import "../Assets/Styles/contact.css"
 import { useEffect } from "react";
-import ProgressBar  from "react-bootstrap/ProgressBar";
 import "../Assets/Styles/about.css"
 import Accordion from 'react-bootstrap/Accordion';
 import { useAccordionButton } from 'react-bootstrap/AccordionButton';
@@ -32,7 +31,7 @@ const Contact = () => {
             <Accordion defaultActiveKey="0">
                             <Card className="each">
                             <Card.Header className="header">
-                            <CustomToggle eventKey="0" className="tit">Front-End Stack</CustomToggle>
+                            <CustomToggle eventKey="0" className="tit">WORKING DAYS</CustomToggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="0">
                             <Card.Body>                                
