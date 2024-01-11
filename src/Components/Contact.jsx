@@ -40,7 +40,7 @@ const Contact = () => {
                         </Card>
                         <Card className="each">
                             <Card.Header className="header">
-                            <CustomToggle eventKey="1" className="tit">Back-End Stack</CustomToggle>
+                            <CustomToggle eventKey="1" className="tit">SOCIAL PROFILES</CustomToggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="1">
                             <Card.Body>                            
