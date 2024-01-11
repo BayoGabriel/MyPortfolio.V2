@@ -1,10 +1,6 @@
 .job {
 	border: 5px solid transparent;
 	animation: border-animation 2s infinite linear;
-	width: 100%;
-  }
-  .jobs {
-	width: 100%; 
   }
   @keyframes border-animation {
 	0% {
@@ -24,7 +20,6 @@
 	}
   }
 .hero_container {
-	height: 100vh;
 	margin-top: 7rem;
 	width: 100%;
 }
@@ -36,7 +31,6 @@
 .hero_container .image .main{
 	top: 0px;
 	bottom: 0px;
-	width: 100%;
 	left: 0px;
     border: 10px solid white ;
 	background-repeat: no-repeat;

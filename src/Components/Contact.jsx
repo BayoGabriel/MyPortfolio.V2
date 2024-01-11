@@ -35,8 +35,7 @@ const Contact = () => {
                             <CustomToggle eventKey="0" className="tit">Front-End Stack</CustomToggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="0">
-                            <Card.Body>
-                                
+                            <Card.Body>                                
                             </Card.Body>
                             </Accordion.Collapse>
                         </Card>
@@ -45,29 +44,7 @@ const Contact = () => {
                             <CustomToggle eventKey="1" className="tit">Back-End Stack</CustomToggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="1">
-                            <Card.Body>
-                            <div className="first">
-                                    <div className="ass">
-                                        <img src={express} alt="svf" /> <span>Express.js</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>
-                                    <div className="ass">
-                                        <img src={Nodejs} alt="svf" /> <span>Node.js</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>
-                                    <div className="ass">
-                                        <img src={Python} alt="svf" /> <span>Python</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>
-                                    <div className="ass">
-                                        <img src={Flask} alt="svf" /> <span>Flask</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>
-                                    <div className="ass">
-                                        <img src={NoSQL} alt="svf" /> <span>NoSQL (MongoDB)</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>                                    
-                                </div>
+                            <Card.Body>                            
                             </Card.Body>
                             </Accordion.Collapse>
                         </Card>
@@ -77,20 +54,6 @@ const Contact = () => {
                             </Card.Header>
                             <Accordion.Collapse eventKey="2">
                             <Card.Body>
-                            <div className="first">
-                                    <div className="ass">
-                                        <img src={git} alt="svf" /> <span>Git</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>
-                                    <div className="ass">
-                                        <img src={github} alt="svf" /> <span>GitHub</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>    
-                                    <div className="ass">
-                                        <img src={ts} alt="svf" /> <span>TypeScript</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>                            
-                                </div>
                             </Card.Body>
                             </Accordion.Collapse>
                         </Card>
