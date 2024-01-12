@@ -1,6 +1,5 @@
 import React from 'react'
 import "../Assets/Styles/contact.css"
-import { useEffect } from "react";
 import "../Assets/Styles/about.css"
 import Accordion from 'react-bootstrap/Accordion';
 import { useAccordionButton } from 'react-bootstrap/AccordionButton';
@@ -34,7 +33,12 @@ const Contact = () => {
                             <CustomToggle eventKey="0" className="tit">WORKING DAYS</CustomToggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="0">
-                            <Card.Body>                                
+                            <Card.Body>
+                              <p>
+                              Our company provides services for our customers between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday. You can visit or call during these days.
+                              <br />
+                              Weekends: Saturday and Sunday.
+                              </p>
                             </Card.Body>
                             </Accordion.Collapse>
                         </Card>

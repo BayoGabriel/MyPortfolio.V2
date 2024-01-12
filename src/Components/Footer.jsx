@@ -1,12 +1,10 @@
 import React from 'react'
 import '../Assets/Styles/footer.css'
-import logo from  '../Assets/Images/logo.jpg'
 const Footer = () => {
   return (
-    <div>
-        <div className='container-fluid'>
-        <img src={logo} alt="logo" />
-        <h5>Built by Gabriel</h5>
+    <div className='footer'>
+        <div className='container'>
+        <h5>Built by Gabriel © 2024</h5>
         </div>
     </div>
   )

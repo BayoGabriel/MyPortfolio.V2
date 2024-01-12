@@ -9,6 +9,7 @@ import Portfolio from "./Components/Portfolio";
 import Timeline from "./Components/Timeline";
 import Testimonial from "./Components/Testimonial";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -31,12 +32,13 @@ const App = () => {
         <div className="main-content">
           <NavBar />
           <Banner />
-          {/* <About /> */}
-          {/* <Services /> */}
-          {/* <Portfolio /> */}
-          {/* <Timeline /> */}
-          {/* <Testimonial /> */}
+          <About />
+          <Services />
+          <Portfolio />
+          <Timeline />
+          <Testimonial />
           <Contact />
+          <Footer />
         </div>
       )}
     </div>
