@@ -29,7 +29,7 @@ const Contact = () => {
             </div>
             <Accordion defaultActiveKey="0">
                             <Card className="each">
-                            <Card.Header className="header">
+                            <Card.Header className="heade">
                             <CustomToggle eventKey="0" className="tit">WORKING DAYS</CustomToggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="0">
@@ -43,7 +43,7 @@ const Contact = () => {
                             </Accordion.Collapse>
                         </Card>
                         <Card className="each">
-                            <Card.Header className="header">
+                            <Card.Header className="heade">
                             <CustomToggle eventKey="1" className="tit">SOCIAL PROFILES</CustomToggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="1">
@@ -52,7 +52,7 @@ const Contact = () => {
                             </Accordion.Collapse>
                         </Card>
                         <Card className="each">
-                            <Card.Header className="header">
+                            <Card.Header className="heade">
                             <CustomToggle eventKey="2" className="tit">EXTRA INFO</CustomToggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="2">
@@ -61,7 +61,7 @@ const Contact = () => {
                             </Accordion.Collapse>
                         </Card>
                         <Card className="each">
-                            <Card.Header className="header">
+                            <Card.Header className="heade">
                             <CustomToggle eventKey="3" className="tit">FILL A FORM</CustomToggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="3">
@@ -70,7 +70,7 @@ const Contact = () => {
                             </Accordion.Collapse>
                         </Card>
                         <Card className="each">
-                            <Card.Header className="header">
+                            <Card.Header className="heade">
                             <CustomToggle eventKey="4" className="tit">LOCATION</CustomToggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="4">
