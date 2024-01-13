@@ -30,15 +30,15 @@ const App = () => {
         </div>
       ) : (
         <div className="main-content">
-          <NavBar />
+          {/* <NavBar /> */}
           <Banner />
-          <About />
-          <Services />
-          <Portfolio />
-          <Timeline />
-          <Testimonial />
-          <Contact />
-          <Footer />
+          {/* <About /> */}
+          {/* <Services /> */}
+          {/* <Portfolio /> */}
+          {/* <Timeline /> */}
+          {/* <Testimonial /> */}
+          {/* <Contact /> */}
+          {/* <Footer /> */}
         </div>
       )}
     </div>

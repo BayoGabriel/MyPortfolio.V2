@@ -1,6 +1,7 @@
-.hero_container{
+/* .hero_container{
 	width: 100%;
 	min-height: 100vh;
+	margin-top: 5rem;
 }
 .hero_container .image{
 	width: 450px;
@@ -27,13 +28,8 @@
 	}
 }
 .hero_container .details{
-	width: 100%;
-	height: 100vh;
 	display: flex;
 	align-items: center;
-}
-.hero_container .text{
-	padding-left: 70px;
 }
 .hero_container .text .stroke{
 	color: transparent;
@@ -88,4 +84,15 @@
 	.hero_container .text{padding-left: 0px;}
 	.hero_container .text h3{font-size: 60px;}
 	.hero_container .job{font-size: 10px 25px;}
+} */
+.hero_container {
+	width: 100%;
+	height: 100vh;
+	margin-top: 5rem;
 }
+.details {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+	
