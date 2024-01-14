@@ -3,7 +3,7 @@ import '../Assets/Styles/footer.css'
 const Footer = () => {
   return (
     <div className='footer'>
-        <div className='container'>
+        <div className='container-lg'>
         <h5>Built by Gabriel © 2024</h5>
         </div>
     </div>

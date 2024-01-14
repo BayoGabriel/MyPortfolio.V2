@@ -1,11 +1,11 @@
 #about {
 	padding: 25px;
-	display: flex;
+	max-width: 100%;
 }
 .big {
 	background-color: #f7f7f7;
 	padding: 25px;
-	width: 100%;
+	
 }
 .about_title{
 	width: 100%;

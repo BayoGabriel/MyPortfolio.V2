@@ -22,7 +22,7 @@ function CustomToggle({ children, eventKey }) {
 const Contact = () => {
   return (
     <div id='contact'>
-        <div className="container contact_section">
+        <div className="container-lg contact_section">
             <div className="header">
                 <span>Portfolio</span>
                 <h3>Get In Touch</h3>
