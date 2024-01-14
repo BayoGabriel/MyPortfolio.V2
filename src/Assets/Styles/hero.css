@@ -35,36 +35,11 @@
 }
 .stroke{
 	color: transparent;
-	 -webkit-text-stroke: 1px #000;
+	-webkit-text-stroke: 1px #000;
 }
-/* .hero_container{
-	width: 100%;
-	margin-top: 5rem;
-}
-.image{
-	width: 450px;
-	height: 450px;
-}
-.hero_container .image .main{
-	background-position:center;
-	background-size: cover;
-	
-}
-
-.hero_container .details{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.hero_container .text 
-.hero_container .text h3{
-	
-}
+/* 
 .hero_container .job{
-	display: inline-block;
-	background-color: #f5f5f5;
-	padding: 15px 40px;
-	margin-top: 30px;
+
 }
 .hero_container .job span{
 	position: relative;
