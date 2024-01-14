@@ -18,10 +18,24 @@
 		border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
    }
 }
+.naw {
+	max-width: 100%;
+}
 .both {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.right h3 {
+	font-size: 6rem;
+	font-weight: 800;
+	line-height: 1.1;
+	text-transform: uppercase;
+	font-family: 'Archivo Black', sans-serif;
+}
+.stroke{
+	color: transparent;
+	 -webkit-text-stroke: 1px #000;
 }
 /* .hero_container{
 	width: 100%;
@@ -42,16 +56,9 @@
 	align-items: center;
 	justify-content: center;
 }
-.hero_container .text .stroke{
-	color: transparent;
-	 -webkit-text-stroke: 1px #000;
-}
+.hero_container .text 
 .hero_container .text h3{
-	font-size: 130px;
-	font-weight: 800;
-	line-height: 1.1;
-	text-transform: uppercase;
-	font-family: 'Archivo Black', sans-serif;
+	
 }
 .hero_container .job{
 	display: inline-block;
