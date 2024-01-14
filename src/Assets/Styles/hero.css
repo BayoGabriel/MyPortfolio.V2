@@ -37,17 +37,19 @@
 	color: transparent;
 	-webkit-text-stroke: 1px #000;
 }
-/* 
-.hero_container .job{
-
+.htt {
+	display: inline-block;
+	background-color: #f5f5f5;
+	padding: 15px 40px;
+	margin-top: 30px;
 }
-.hero_container .job span{
+.htt span {
 	position: relative;
 	display: inline-block;
 	padding-right: 15px;
 	margin-right: 10px;
 }
-.hero_container .job span:after{
+.htt span:after{
 	position: absolute;
 	content: "";
 	width: 6px;
@@ -58,12 +60,18 @@
 	transform: translateY(-50%);
 	border-radius: 100%;
 }
-.hero_container .job span:last-child{
+.htt span:last-child{
 	margin: 0px;
 	padding: 0px;
 }
-.hero_container .job span:last-child:after{
+.htt span:last-child:after{
 	display: none;
+}
+
+/* 
+.hero_container .job span{
+	position: relative;
+	
 }
 
 @media (max-width: 1600px) {
