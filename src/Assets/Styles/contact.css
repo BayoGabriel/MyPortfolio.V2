@@ -18,6 +18,7 @@ input, textarea {
 .mage a {
 	color: black;
 	text-decoration: none;
+	margin-left: 25px;
 }
 .mage a:hover {
 	text-decoration: underline;
@@ -44,4 +45,4 @@ input, textarea {
 .soc img:last-child {
 	margin-right: 0;
 }
-  
+/* ase */
