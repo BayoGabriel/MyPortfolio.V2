@@ -23,9 +23,9 @@ const Contact = () => {
             </div>
             <h4>Socials</h4>
             <div className="soc">
-            <img src={gth} alt="mal" />
-            <img src={ln} alt="mal" />
-            <img src={x} alt="mal" />
+            <div className="out"><img src={gth} alt="mal" /></div>
+            <div className="out"><img src={ln} alt="mal" /></div>
+            <div className="out"><img src={x} alt="mal" /></div>
             </div>
           </div>
           <div className="col-lg-6 cright">
