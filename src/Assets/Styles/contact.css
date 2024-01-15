@@ -8,6 +8,8 @@ input, textarea {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	padding: 2.5rem;
+	margin-bottom: 2.5rem;
 }
 .mage {
 	display: flex;
@@ -20,14 +22,17 @@ input, textarea {
 .mage a:hover {
 	text-decoration: underline;
 }
+.cleft p {
+	margin-top: 0;
+	padding-top: 0;
+}
 .out {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 3rem;
-	height: 3rem;
+	padding: 1rem;
 	border-radius: 50%;
-	background-color: aqua;
+	background-color:  #f7f7f7;
 }
 .out img {
 	margin-left: 0;
