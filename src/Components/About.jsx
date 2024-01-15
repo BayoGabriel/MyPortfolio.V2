@@ -26,7 +26,7 @@ import 'aos/dist/aos.css';
 
 function CustomToggle({ children, eventKey }) {
     const decoratedOnClick = useAccordionButton(eventKey, () =>
-      console.log('totally custom!'),
+      console.log(''),
     );
   
     return (

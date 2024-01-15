@@ -1,29 +1,7 @@
-.contact_section {
-    margin-top: 5rem;
-    width: 100%;
+input, textarea {
+	width: 100%;
+	padding: 8px;
+	box-sizing: border-box;
+	margin-bottom: 5px;
 }
-.header {
-    width: 100%;
-	margin-bottom: 70px;
-}
-.header h3{
-	font-size: 45px;
-	font-weight: 700;
-}
-.header span{
-	display: inline-block;
-	margin-bottom: 10px;
-	text-transform: uppercase;
-	position: relative;
-	padding-left: 60px;
-}
-.header span:before{
-	position: absolute;
-	content: "";
-	width: 40px;
-	height: 1px;
-	background-color: #868a9b;
-	left: 0px;
-	top: 50%;
-	transform: translateY(-50%);
-}
+  
