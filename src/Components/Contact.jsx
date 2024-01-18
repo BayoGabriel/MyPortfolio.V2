@@ -36,10 +36,10 @@ const Contact = () => {
           </div>
           <div className="col-lg-6 cright">
             <form action="">
-            <input type="text" placeholder='Name' name='name'/>
-            <input type="email" placeholder='Email' name='email' />
-            <input type="text" placeholder='SUbject' name='subject' />
-            <textarea name="message" id="message" placeholder='Your message' cols="30" rows="10"></textarea>
+            <input className='ty' type="text" placeholder='Name' name='name'/>
+            <input className='ty' type="email" placeholder='Email' name='email' />
+            <input className='ty' type="text" placeholder='Subject' name='subject' />
+            <textarea name="message" id="message" placeholder='Your message' ></textarea>
             <button>
               <img src={send} alt="send" /> Send Message
             </button>
