@@ -4,6 +4,7 @@ import mal from "../Assets/Images/mail.svg"
 import x from "../Assets/Images/twitter.svg"
 import ln from "../Assets/Images/linkedin2.svg"
 import gth from "../Assets/Images/github.svg"
+import send from "../Assets/Images/send.svg"
 
 const Contact = () => {
   return (
@@ -20,8 +21,8 @@ const Contact = () => {
             <div className="mage">
             <a href="mailto:bayogabriel24@gmail.com"><div className="out"><img src={mal} alt="mal" /></div></a>                      
             <a href="https://github.com/BayoGabriel"><div className="out"><img src={gth} alt="mal" /></div></a>
-            <a href=""><div className="out"><img src={ln} alt="mal" /></div></a>
-            <a href=""><div className="out"><img src={x} alt="mal" /></div></a>
+            <a href="https://www.linkedin.com/in/bayogabr/"><div className="out"><img src={ln} alt="mal" /></div></a>
+            <a href="https://twitter.com/bayogabr"><div className="out"><img src={x} alt="mal" /></div></a>
             </div>
             <div className="map">
               <iframe className='goog'
@@ -39,6 +40,9 @@ const Contact = () => {
             <input type="email" placeholder='Email' name='email' />
             <input type="text" placeholder='SUbject' name='subject' />
             <textarea name="message" id="message" placeholder='Your message' cols="30" rows="10"></textarea>
+            <button>
+              <img src={send} alt="send" /> Send Message
+            </button>
             </form>
           </div>
         </div>
