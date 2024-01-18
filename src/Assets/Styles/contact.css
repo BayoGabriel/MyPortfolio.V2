@@ -10,6 +10,7 @@ input, textarea {
 .goog {
 	width: 100%;
 	margin-top: 25px;
+	border-radius: 15px;
 }
 .mage {
 	display: flex;
@@ -26,6 +27,7 @@ input, textarea {
 }
 .mage a img:hover {
 	height: 1.3rem;
+	transition: ease-in 500ms;
 }
 .out {
 	display: flex;
@@ -57,6 +59,7 @@ input, textarea {
 }
 .box .cright {
 	padding: 25px;
-	background-color: #ffffff;
+	background-color: #eeeeee;
+	border-radius: 15px;
 }
 /* ase */
