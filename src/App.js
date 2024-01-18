@@ -35,7 +35,7 @@ const App = () => {
           <About />
           <Services />
           <Portfolio />
-          {/* <Timeline /> */}
+          <Timeline />
           <Testimonial />
           <Contact />
           <Footer />

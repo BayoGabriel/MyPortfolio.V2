@@ -5,8 +5,32 @@ import x from "../Assets/Images/twitter.svg"
 import ln from "../Assets/Images/linkedin2.svg"
 import gth from "../Assets/Images/github.svg"
 import send from "../Assets/Images/send.svg"
+import axios from 'axios';
+import { useState } from 'react'
 
 const Contact = () => {
+
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: '',
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      await axios.post('/send-email', formData);
+      alert('Email sent successfully!');
+    } catch (error) {
+      console.error('Error sending email:', error);
+    }
+  };
   return (
     <div id='contact'>
       <div className="container-lg contact_section">
@@ -35,12 +59,12 @@ const Contact = () => {
             </div>
           </div>
           <div className="col-lg-6 cright">
-            <form action="">
-            <input className='ty' type="text" placeholder='Name' name='name'/>
-            <input className='ty' type="email" placeholder='Email' name='email' />
-            <input className='ty' type="text" placeholder='Subject' name='subject' />
-            <textarea name="message" id="message" placeholder='Your message' ></textarea>
-            <button>
+            <form onSubmit={handleSubmit}>
+            <input className='ty' type="text" placeholder='Name' name='name' onChange={handleChange}/>
+            <input className='ty' type="email" placeholder='Email' name='email' onChange={handleChange}/>
+            <input className='ty' type="text" placeholder='Subject' name='subject' onChange={handleChange}/>
+            <textarea name="message" id="message" placeholder='Your message' onChange={handleChange}></textarea>
+            <button type='submit'>
               <img src={send} alt="send" /> Send Message
             </button>
             </form>
