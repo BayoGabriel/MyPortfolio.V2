@@ -11,6 +11,10 @@ input, textarea {
 	width: 100%;
 	margin-top: 25px;
 	border-radius: 15px;
+	transition: transform 0.3s ease;
+}
+.goog:hover {
+	transform: scale(1.1);
 }
 .mage {
 	display: flex;

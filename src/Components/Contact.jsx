@@ -19,7 +19,7 @@ const Contact = () => {
             <h4>Socials</h4>
             <div className="mage">
             <a href="mailto:bayogabriel24@gmail.com"><div className="out"><img src={mal} alt="mal" /></div></a>                      
-            <a href=""><div className="out"><img src={gth} alt="mal" /></div></a>
+            <a href="https://github.com/BayoGabriel"><div className="out"><img src={gth} alt="mal" /></div></a>
             <a href=""><div className="out"><img src={ln} alt="mal" /></div></a>
             <a href=""><div className="out"><img src={x} alt="mal" /></div></a>
             </div>
