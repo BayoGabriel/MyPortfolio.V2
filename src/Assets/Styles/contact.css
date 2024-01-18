@@ -5,27 +5,27 @@ input, textarea {
 	margin-bottom: 5px;
 }
 .cleft {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	padding: 2.5rem;
 	margin-bottom: 2.5rem;
+}
+.goog {
+	width: 100%;
+	margin-top: 25px;
 }
 .mage {
 	display: flex;
 	align-items: center;
 }
 .mage a {
-	color: black;
-	text-decoration: none;
 	margin-left: 25px;
 }
-.mage a:hover {
-	text-decoration: underline;
+.mage a:first-child {
+	margin-left: 0;
 }
-.cleft p {
-	margin-top: 0;
-	padding-top: 0;
+.mage a img {
+	height: 1rem;
+}
+.mage a img:hover {
+	height: 1.3rem;
 }
 .out {
 	display: flex;
@@ -44,5 +44,19 @@ input, textarea {
 }
 .soc img:last-child {
 	margin-right: 0;
+}
+.box {
+	border-radius: 15px;
+	width: 100%;
+	padding: 25px;
+	background-color: #EAEAEA;
+	margin-bottom: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.box .cright {
+	padding: 25px;
+	background-color: #ffffff;
 }
 /* ase */
