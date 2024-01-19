@@ -1,12 +1,12 @@
 .cleft {
 	margin-bottom: 2.5rem;
 }
-.goog {
+.google {
 	width: 100%;
 	margin-top: 25px;
 	border-radius: 15px;
 }
-.goog:hover {
+.google:hover {
 	transform: scale(1.02);
 }
 .mage {
