@@ -31,7 +31,7 @@ const App = () => {
       ) : (
         <div className="main-content">
           <NavBar />
-          <Banner />
+          {/* <Banner /> */}
           <About />
           <Services />
           <Portfolio />
