@@ -9,10 +9,10 @@ const Hero = () => {
   return (
    <div className='container-lg' id='home'>
     <div className="row both">
-      <div className="col-lg-6 left">
+      <div className="col-lg-6 col-md-6 left">
       <img src={banner} alt="banner" />
       </div>
-      <div className="col-lg-6 right">
+      <div className="col-lg-6 col-md-6 right">
         <div className="naw">
         <h3 className="stroke">Gabriel</h3>
         <h3>Bayode</h3>
