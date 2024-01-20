@@ -30,11 +30,12 @@ function CustomToggle({ children, eventKey }) {
     );
   
     return (
-      <div
+      <div 
         onClick={decoratedOnClick}
       >
         {children}
       </div>
+      
     );
   }
 const About = () => {
@@ -45,7 +46,7 @@ const About = () => {
         <div className="big">
             <div className="container-lg" id="about">
                 <div className="row detail">
-                    <div className="col-lg-6 left" data-aos="fade-up" data-aos-duration="3000">
+                    <div className="col-lg-6 aleft" data-aos="fade-up" data-aos-duration="3000">
                         <div class="about_title">
                         <span>Gabriel Bayode</span>
                         <h3>FullStack Developer since 2022</h3>
@@ -57,10 +58,10 @@ const About = () => {
                         <a href="../Assets/Bayode_Gabriel_CV.pdf" download="">Download CV</a>
                         </div>
                     </div>
-                    <div className="col-lg-6 right" data-aos="fade-down" data-aos-duration="3000">
+                    <div className="col-lg-6 aright" data-aos="fade-down" data-aos-duration="3000">
                         <Accordion defaultActiveKey="0">
                             <Card className="each">
-                            <Card.Header className="header">
+                            <Card.Header className="header customtoggle">
                             <CustomToggle eventKey="0" className="tit">Front-End Stack</CustomToggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="0">
