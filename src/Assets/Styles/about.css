@@ -4,8 +4,7 @@
 	padding-top: 7.5rem;
 }
 .big {
-	background-color: #f7f7f7;
-	
+	background-color: #f7f7f7;	
 }
 .header {
     width: 100%;
@@ -34,7 +33,6 @@
 }
 .about_section .text{
 	width: 100%;
-	margin-bottom: 40px;
 }
 .about_btn{
 	width: 100%;
@@ -56,7 +54,7 @@
 	border: 1px solid #000;
 	transition: ease-in-out 1.5s;
 }
-.each {
+/* .each {
 	min-width: 100%;
 	margin-bottom: 10px;
 }
@@ -65,17 +63,9 @@
 	color: #000000;
 	font-weight: 400;
 	font-size: 24px;
-}
-.item {
-	display: flex;
-	padding: 15px;
-	margin-left: 10px;
-}
+} */
 .aright {
 	max-height: 100%;
-}
-.item .two {
-	margin-left: 50px;
 }
 .first .ass img {
 	width: 1rem;

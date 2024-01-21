@@ -14,11 +14,11 @@ const Services = () => {
   return (
     <div id='service'> 
         <div className="container-lg service_section">
+            <div className="row service_cont">
             <div className="header" data-aos="fade-up" data-aos-duration="2000">
                 <span>Services</span>
                 <h3>Quality Services</h3>
             </div>
-            <div className="row service_cont">
                 <div className="col-md-6 col-lg-4 col-sm-12 service" data-aos="fade-right" dat-aos-duration="4000">
                     <div className="inner">
                     <img src={design} alt="alf" />

@@ -4,30 +4,30 @@ import "../Assets/Styles/timeline.css"
 const Timeline = () => {
   return (
     <div id="timeline">
-      <div className="container-lg">
+      <div className="container-lg cont_tml">
+        <div className="row body">
         <div className="header">
           <span>Timeline</span>
           <h3>Timeline Period</h3>
         </div>
-        <div className="row body">
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-6 dfg">
             <div className="tt"><h3>Experience</h3></div>
             <div className="item">
               <div className="exp">
-              <h4>TB Tech</h4>
-              <p>Front-End Developer</p>
+              <h4>ITB Tech</h4>
+              <p>Back-End Developer</p>
               </div>
               <div className="date">
-                2022-Now
+                2023-Now
               </div>
             </div>
             <div className="item">
               <div className="exp">
-              <h4>TB Tech</h4>
-              <p>SEO Developement</p>
+              <h4>ITB Tech</h4>
+              <p>Front-End Development</p>
               </div>
               <div className="date">
-                2021-Now
+                2022-Now
               </div>
             </div>
             <div className="item">
@@ -36,37 +36,37 @@ const Timeline = () => {
               <p>WordPress Developer</p>
               </div>
               <div className="date">
-                2019-2022
+                2019-Now
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-6 dfg">
             <div className="tt"><h3>Education</h3></div>
             <div className="item">
               <div className="exp">
-              <h4>TB Tech</h4>
-              <p>Front-End Developer</p>
+              <h4>Meta</h4>
+              <p>FullStack Development</p>
               </div>
               <div className="date">
-                2022-Now
+                2023
               </div>
             </div>
             <div className="item">
               <div className="exp">
-              <h4>TB Tech</h4>
-              <p>SEO Developement</p>
+              <h4>OAUSTECH</h4>
+              <p>Electrical Engineering</p>
               </div>
               <div className="date">
-                2021-Now
+                2017-2023
               </div>
             </div>
             <div className="item">
               <div className="exp">
-              <h4>Freelance</h4>
-              <p>WordPress Developer</p>
+              <h4>St. Alphonsus</h4>
+              <p>Senior Secondary School</p>
               </div>
               <div className="date">
-                2019-2022
+                2014-2017
               </div>
             </div>
           </div>
