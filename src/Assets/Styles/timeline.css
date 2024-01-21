@@ -58,9 +58,6 @@
 .dfg .item:last-child {
 	margin-bottom: 0;
 }
-.dfg:last-child {
-	margin-top: 2.5rem;
-}
 .dfg .item h4 {
 	font-size: 17px;
 	margin-bottom: 3px;
@@ -68,4 +65,9 @@
 .dfg .date {
 	padding: 10px;
 	background-color: #ffffff;
+}
+@media (max-width:767px) {
+	.dfg:last-child {
+		margin-top: 2.5rem;
+	}
 }
