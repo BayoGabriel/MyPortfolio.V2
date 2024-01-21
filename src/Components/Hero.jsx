@@ -1,5 +1,4 @@
 import React from 'react'
-import banner from "../Assets/Images/mybanner.png"
 import "../Assets/Styles/hero.css"
 import 'aos/dist/aos.css';
 
