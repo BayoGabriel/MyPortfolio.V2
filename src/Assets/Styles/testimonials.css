@@ -1,6 +1,3 @@
-#testimonial {
-	background-color: #868a9b;
-}
 .conttt {
     padding: 50px;
 	margin-top: 5rem;
@@ -60,8 +57,17 @@
     height: 500px;
     opacity: .07;
 }
+.desc img {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+.woww {
+	margin-bottom: 30px;
+}
 .testhead h4 {
 	text-transform: uppercase;
+	font-size: 17px;
 }
 @media (max-width:767) {
 	.testhead {padding: 25px 30px;}

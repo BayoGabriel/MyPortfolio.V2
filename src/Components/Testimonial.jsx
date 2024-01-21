@@ -1,10 +1,11 @@
 import React from 'react'
 import "../Assets/Styles/testimonials.css"
 import ayo from "../Assets/Images/ayo.jpg"
+import star from "../Assets/Images/star-svgrepo-com.svg"
 
 const Testimonial = () => {
   return (
-    <div id=' testimonial' className='big'>
+    <div id='testimonial' className='big'>
         <div className="container-lg testimonial_section">
             <div className="conttt">
             <div className="header">
@@ -20,6 +21,12 @@ const Testimonial = () => {
                 <img src={ayo} alt="" />
               </div>
               <div className="desc">
+                <div className="woww"><img src={star} alt="star" />
+                <img src={star} alt="star" />
+                <img src={star} alt="star" />
+                <img src={star} alt="star" />
+                <img src={star} alt="star" />
+                </div>
                 <p>I generally begin with what people are doing well. It’s too deflating for them if you start by immediately identifying all the things that are wrong. There’s a tipping point when any more negative feedback could shatter their confidence. If it’s really bad work, I ask them to stop and have a different kind of discussion. There are times where you may need just to say, ‘Stop, we need to reset. I generally begin with what people are doing well. It’s too deflating for them if you start by immediately identifying all the things that are wrong.</p>
               </div>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="svg replaced-svg">

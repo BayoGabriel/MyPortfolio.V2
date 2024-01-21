@@ -27,3 +27,8 @@
 	top: 50%;
 	transform: translateY(-50%);
 }
+.project {
+	padding: 50px;
+	margin-top: 5rem;
+	padding-top: 7.5rem;
+}

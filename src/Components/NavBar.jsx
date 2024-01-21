@@ -17,7 +17,7 @@ function MyNav() {
             <Nav.Link href="#service">Service</Nav.Link>
             <Nav.Link href="#portfolio">Portfolio</Nav.Link>
             <Nav.Link href="#timeline">Timeline</Nav.Link>
-            <Nav.Link href="#test">Testimonial</Nav.Link>
+            <Nav.Link href="#testimonial">Testimonial</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
