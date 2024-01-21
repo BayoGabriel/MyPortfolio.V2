@@ -1,24 +1,29 @@
 #about {
-	padding: 25px;
+	padding: 50px;
+	margin-top: 5rem;
+	padding-top: 7.5rem;
 }
 .big {
 	background-color: #f7f7f7;
-	margin-top: 5rem;
+	
 }
-.about_title{
-	width: 100%;
+.header {
+    width: 100%;
 	margin-bottom: 70px;
 }
-.about_title h3{
+.header h3{
 	font-size: 45px;
 	font-weight: 700;
 }
-.about_title span{
+.header span{
 	display: inline-block;
+	margin-bottom: 10px;
 	text-transform: uppercase;
+	position: relative;
 	padding-left: 60px;
 }
-.about_title span:before{
+.header span:before{
+	position: absolute;
 	content: "";
 	width: 40px;
 	height: 1px;
@@ -52,17 +57,14 @@
 	transition: ease-in-out 1.5s;
 }
 .each {
-	width: 100%;
+	min-width: 100%;
 	margin-bottom: 10px;
 }
-.aright .header {
-	height: 100%;
+.each .h2 {
 	background-color: #eaeaea;
 	color: #000000;
 	font-weight: 400;
 	font-size: 24px;
-	cursor: pointer;
-	width: 100%;
 }
 .item {
 	display: flex;

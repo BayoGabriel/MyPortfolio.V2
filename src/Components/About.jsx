@@ -30,9 +30,9 @@ const About = () => {
             <div className="container-lg" id="about">
                 <div className="row detail">
                     <div className="col-lg-6 aleft" data-aos="fade-up" data-aos-duration="3000">
-                        <div class="about_title">
-                        <span>Gabriel Bayode</span>
-                        <h3>FullStack Developer since 2022</h3>
+                        <div className="header" data-aos="fade-up" data-aos-duration="2000">
+                            <span>Gabriel Bayode</span> 
+                            <h3>FullStack Developer since 2022</h3>
                         </div>
                         <div class="text">
                         <p>I'm Gabriel Bayode, a seasoned full-stack developer with a strong passion and commitment to my craft. With 3 years of professional experience in the field, I possess the skills and expertise needed to ensure the success of your project. I find fulfillment in every aspect of the development process, from initial discussions to collaborative efforts.</p>
@@ -42,14 +42,14 @@ const About = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 aright" data-aos="fade-down" data-aos-duration="3000">
-                        <div className="accordion" id="accordionPanelsStayOpenExample">
+                        <div className="accordion each" id="accordionExample">
                         <div className="accordion-item">
-                            <h2 className="accordion-header header" id="panelsStayOpen-headingOne">
-                            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            <h2 className="accordion-header header" id="headingOne">
+                            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             Front-End Stack
                             </button>
                             </h2>
-                            <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                            <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div className="accordion-body first">
                                 <div className="ass">
                                     <img src={html} alt="svf" /> <span>Html</span>
@@ -83,12 +83,12 @@ const About = () => {
                             </div>
                         </div>
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Back-End Stack
                             </button>
                             </h2>
-                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div class="accordion-body first">
                                 <div className="ass">
                                     <img src={express} alt="svf" /> <span>Express.js</span>
@@ -114,12 +114,12 @@ const About = () => {
                             </div>
                         </div>
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 Others
                             </button>
                             </h2>
-                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                             <div class="accordion-body first">
                                 <div className="ass">
                                     <img src={git} alt="svf" /> <span>Git</span>
