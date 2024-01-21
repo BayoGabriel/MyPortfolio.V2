@@ -1,9 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
 import "../Assets/Styles/about.css"
-import Accordion from 'react-bootstrap/Accordion';
-import { useAccordionButton } from 'react-bootstrap/AccordionButton';
-import Card from 'react-bootstrap/Card';
 import html from "../Assets/Images/html.ed6aaa50.svg"
 import css from "../Assets/Images/css.e5e99f36.svg"
 import bootstrap from "../Assets/Images/icons8-bootstrap.svg"
@@ -24,20 +21,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 
-function CustomToggle({ children, eventKey }) {
-    const decoratedOnClick = useAccordionButton(eventKey, () =>
-      console.log(''),
-    );
-  
-    return (
-      <div 
-        onClick={decoratedOnClick}
-      >
-        {children}
-      </div>
-      
-    );
-  }
 const About = () => {
     useEffect(() => {
         AOS.init();
@@ -59,101 +42,101 @@ const About = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 aright" data-aos="fade-down" data-aos-duration="3000">
-                        <Accordion defaultActiveKey="0">
-                            <Card className="each">
-                            <Card.Header className="header customtoggle">
-                            <CustomToggle eventKey="0" className="tit">Front-End Stack</CustomToggle>
-                            </Card.Header>
-                            <Accordion.Collapse eventKey="0">
-                            <Card.Body>
-                                <div className="first">
-                                    <div className="ass">
-                                        <img src={html} alt="svf" /> <span>Html</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>
-                                    <div className="ass">
-                                        <img src={css} alt="svf" /> <span>Css</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>
-                                    <div className="ass">
-                                        <img src={bootstrap} alt="svf" /> <span>Bootstrap</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>
-                                    <div className="ass">
-                                        <img src={javascript} alt="svf" /> <span>JavaScript</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>
-                                    <div className="ass">
-                                        <img src={react} alt="svf" /> <span>React.js</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>
-                                    <div className="ass">
-                                        <img src={rn} alt="svf" /> <span>React Native</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>
-                                    <div className="ass">
-                                        <img src={redux} alt="svf" /> <span>Redux</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>
+                        <div className="accordion" id="accordionPanelsStayOpenExample">
+                        <div className="accordion-item">
+                            <h2 className="accordion-header header" id="panelsStayOpen-headingOne">
+                            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            Front-End Stack
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                            <div className="accordion-body first">
+                                <div className="ass">
+                                    <img src={html} alt="svf" /> <span>Html</span>
+                                    <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                 </div>
-                            </Card.Body>
-                            </Accordion.Collapse>
-                        </Card>
-                        <Card className="each">
-                            <Card.Header className="header">
-                            <CustomToggle eventKey="1" className="tit">Back-End Stack</CustomToggle>
-                            </Card.Header>
-                            <Accordion.Collapse eventKey="1">
-                            <Card.Body>
-                            <div className="first">
-                                    <div className="ass">
-                                        <img src={express} alt="svf" /> <span>Express.js</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>
-                                    <div className="ass">
-                                        <img src={Nodejs} alt="svf" /> <span>Node.js</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>
-                                    <div className="ass">
-                                        <img src={Python} alt="svf" /> <span>Python</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>
-                                    <div className="ass">
-                                        <img src={Flask} alt="svf" /> <span>Flask</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>
-                                    <div className="ass">
-                                        <img src={NoSQL} alt="svf" /> <span>NoSQL (MongoDB)</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>                                    
+                                <div className="ass">
+                                    <img src={css} alt="svf" /> <span>Css</span>
+                                    <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                 </div>
-                            </Card.Body>
-                            </Accordion.Collapse>
-                        </Card>
-                        <Card className="each">
-                            <Card.Header className="header">
-                            <CustomToggle eventKey="2" className="tit">Others</CustomToggle>
-                            </Card.Header>
-                            <Accordion.Collapse eventKey="2">
-                            <Card.Body>
-                            <div className="first">
-                                    <div className="ass">
-                                        <img src={git} alt="svf" /> <span>Git</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>
-                                    <div className="ass">
-                                        <img src={github} alt="svf" /> <span>GitHub</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>    
-                                    <div className="ass">
-                                        <img src={ts} alt="svf" /> <span>TypeScript</span>
-                                        <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                    </div>                            
+                                <div className="ass">
+                                    <img src={bootstrap} alt="svf" /> <span>Bootstrap</span>
+                                    <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                 </div>
-                            </Card.Body>
-                            </Accordion.Collapse>
-                        </Card>
-                        </Accordion>
+                                <div className="ass">
+                                    <img src={javascript} alt="svf" /> <span>JavaScript</span>
+                                    <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                </div>
+                                <div className="ass">
+                                    <img src={react} alt="svf" /> <span>React.js</span>
+                                    <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                </div>
+                                <div className="ass">
+                                    <img src={rn} alt="svf" /> <span>React Native</span>
+                                    <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                </div>
+                                <div className="ass">
+                                    <img src={redux} alt="svf" /> <span>Redux</span>
+                                    <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                Back-End Stack
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body first">
+                                <div className="ass">
+                                    <img src={express} alt="svf" /> <span>Express.js</span>
+                                    <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                </div>
+                                <div className="ass">
+                                    <img src={Nodejs} alt="svf" /> <span>Node.js</span>
+                                    <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                </div>
+                                <div className="ass">
+                                    <img src={Python} alt="svf" /> <span>Python</span>
+                                    <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                </div>
+                                <div className="ass">
+                                    <img src={Flask} alt="svf" /> <span>Flask</span>
+                                    <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                </div>
+                                <div className="ass">
+                                    <img src={NoSQL} alt="svf" /> <span>NoSQL (MongoDB)</span>
+                                    <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                </div>                                    
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                Others
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body first">
+                                <div className="ass">
+                                    <img src={git} alt="svf" /> <span>Git</span>
+                                    <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                </div>
+                                <div className="ass">
+                                    <img src={github} alt="svf" /> <span>GitHub</span>
+                                    <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                </div>    
+                                <div className="ass">
+                                    <img src={ts} alt="svf" /> <span>TypeScript</span>
+                                    <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
+                                </div>                            
+                            </div>
+                            </div>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>

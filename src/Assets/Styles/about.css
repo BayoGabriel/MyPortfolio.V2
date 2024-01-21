@@ -55,12 +55,10 @@
 	width: 100%;
 	margin-bottom: 10px;
 }
-.aright .each .header {
+.aright .header {
 	height: 100%;
-	display: flex;
 	background-color: #eaeaea;
 	color: #000000;
-	align-items: center;
 	font-weight: 400;
 	font-size: 24px;
 	cursor: pointer;

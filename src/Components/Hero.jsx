@@ -10,7 +10,8 @@ const Hero = () => {
    <div className='container-lg' id='home'>
     <div className="row both">
       <div className="col-lg-6 col-md-6 left">
-      <img src={banner} alt="banner" />
+      <div className="mgg">
+      </div>
       </div>
       <div className="col-lg-6 col-md-6 right">
         <div className="naw">
