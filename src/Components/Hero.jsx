@@ -2,17 +2,17 @@ import React from 'react'
 import "../Assets/Styles/hero.css"
 import 'aos/dist/aos.css';
 import banner from "../Assets/Images/mybanner.png"
-import { useTypewriter } from 'react-simple-typewriter'
+import { Typewriter, useTypewriter } from 'react-simple-typewriter'
 
 const Hero = () => {
 
  
   const [text] = useTypewriter({
-    words: ['Bayode', 'Software', 'SaaS', 'Quick', 'Problem', 'Continuous'],
+    words: ['Bayode'],
     loop: 0
   })
   const [text1] = useTypewriter({
-    words: ['Gabriel', 'Engineer', 'Builder', 'Learner', 'Solver', 'Learner'],
+    words: ['Gabriel'],
     loop: 0
   })
   
