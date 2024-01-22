@@ -2,11 +2,20 @@ import React from 'react'
 import "../Assets/Styles/hero.css"
 import 'aos/dist/aos.css';
 import banner from "../Assets/Images/mybanner.png"
-import Typewriter from "typewriter-effect";
+import { useTypewriter } from 'react-simple-typewriter'
 
 const Hero = () => {
 
  
+  const [text] = useTypewriter({
+    words: ['Bayode', 'Software', 'SaaS', 'Quick', 'Problem', 'Continuous'],
+    loop: 0
+  })
+  const [text1] = useTypewriter({
+    words: ['Gabriel', 'Engineer', 'Builder', 'Learner', 'Solver', 'Learner'],
+    loop: 0
+  })
+  
   return (
    <div className='container-lg' id='home'>
     <div className="row both">
@@ -15,18 +24,8 @@ const Hero = () => {
       </div>
       <div className="col-lg-6 col-md-6 right">
         <div className="naw">
-        <Typewriter
-                onInit={(typewriter) => {
-                    typewriter
-                        .typeString("GeeksForGeeks")
-                        .pauseFor(1000)
-                        .deleteAll()
-                        .typeString("Welcomes You")
-                        .start();
-                }}
-            />
-        <h3 className="stroke">Gabriel</h3>
-        <h3>Bayode</h3>
+        <h3 className="stroke">{text}</h3>
+        <h3>{text1}</h3>
         <div class="htt">           
         <span>Front-End Design</span><span>Back-End Development</span>
         </div>
