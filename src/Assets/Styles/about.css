@@ -47,7 +47,33 @@
 	text-decoration: none;
 	margin-bottom: 2.5rem;
 }
-
+.hj {
+	background-color: #f7f7f7 !important;
+	border: none !important;
+}
+.hj button:focus {
+	box-shadow: none;
+}
+.a-header {
+	margin-bottom: 10px !important;
+}
+.ngga {
+	width: 100% !important;
+    background-color: #eaeaea !important;
+    padding: 25px 40px !important;
+    cursor: pointer !important;
+	font-size: 17px !important;
+	font-weight: 700 !important;
+	text-transform: uppercase;
+}
+@media (max-width: 768px) {
+	.ngga {
+		padding: 25px 30px !important;
+	}
+	#about {
+		padding: 0;
+	}
+}
 .about_btn a:hover{
 	background-color: #848080;
     color: #ffffff;

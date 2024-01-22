@@ -1,10 +1,13 @@
-.cleft {
-	margin-bottom: 2.5rem;
+.conuy {
+	padding: 50px;
+	margin-top: 5rem;
+	padding-top: 7.5rem;
 }
 .google {
 	width: 100%;
-	margin-top: 25px;
-	border-radius: 15px;
+	padding: 40px;
+	height: 400px;
+	outline: none;
 }
 .google:hover {
 	transform: scale(1.02);
@@ -40,45 +43,26 @@
 .soc img:last-child {
 	margin-right: 0;
 }
-.box {
-	border-radius: 15px;
-	width: 100%;
-	padding: 25px;
-	background-color: #EAEAEA;
-	margin-bottom: 5rem;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+
+.trey {
+	border: none !important;
 }
-.box .cright {
-	padding: 25px;
-	background-color: #ffffff;
-	border-radius: 15px;
+.trey button:focus {
+	box-shadow: none;
 }
-.cright button {
-	padding: 15px 35px;
-	border: none;
-	background-color: #eeeeee;
-	cursor: pointer;
-	border-radius: 15px;
+.ngga {
+	width: 100% !important;
+    background-color: #eaeaea !important;
+    padding: 25px 40px !important;
+    cursor: pointer !important;
+	font-size: 17px !important;
+	font-weight: 700 !important;
+	text-transform: uppercase;
+	margin-bottom: 5px;
 }
-.cright button:hover {
-	background-color: #ffffff;
-	border: 2.5px solid #eeeeee;
+@media (max-width: 768px) {
+	.ngga {
+		padding: 25px 30px !important;
+	}
 }
-input {
-	width: 100%;
-	padding: 12px;
-	margin-bottom: 10px;
-	border: 1px solid #ffffff;
-	background-color: #eeeeee;
-}
-input:focus {
-	border-color: ;
-}
-textarea {
-	width: 100%;
-	padding: 8px;
-	border: none;
-	background-color: #eeeeee;
-}
+

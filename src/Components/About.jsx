@@ -42,10 +42,10 @@ const About = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 aright" data-aos="fade-down" data-aos-duration="3000">
-                        <div className="accordion each" id="accordionExample">
-                        <div className="accordion-item">
-                            <h2 className="accordion-header header" id="headingOne">
-                            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div className="accordion" id="accordionExample">
+                        <div className="accordion-item hj">
+                            <h2 className="accordion-header a-header" id="headingOne">
+                            <button className="accordion-button ngga" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             Front-End Stack
                             </button>
                             </h2>
@@ -82,14 +82,14 @@ const About = () => {
                             </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div className="accordion-item hj">
+                            <h2 className="accordion-header a-header" id="headingTwo">
+                            <button className="accordion-button ngga collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Back-End Stack
                             </button>
                             </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body first">
+                            <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div className="accordion-body first">
                                 <div className="ass">
                                     <img src={express} alt="svf" /> <span>Express.js</span>
                                     <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
@@ -113,14 +113,14 @@ const About = () => {
                             </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div className="accordion-item hj">
+                            <h2 className="accordion-header" id="headingThree">
+                            <button className="accordion-button ngga collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 Others
                             </button>
                             </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <div class="accordion-body first">
+                            <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div className="accordion-body first">
                                 <div className="ass">
                                     <img src={git} alt="svf" /> <span>Git</span>
                                     <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
