@@ -46,6 +46,7 @@
 
 .trey {
 	border: none !important;
+	background-color: #ffffff;
 }
 .trey button:focus {
 	box-shadow: none;

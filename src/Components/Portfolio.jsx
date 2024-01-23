@@ -12,7 +12,7 @@ const Portfolio = () => {
                   <h3>My Works</h3>
               </div>
               <div className='row'>
-              <div className="col-sm-12 md-4 lg-3">
+              <div className="col-sm-12 lg-3">
                 
               </div>
               </div>
