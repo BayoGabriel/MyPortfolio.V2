@@ -65,14 +65,13 @@
 	font-size: 17px !important;
 	font-weight: 700 !important;
 	text-transform: uppercase;
-	
 }
 @media (max-width: 768px) {
 	.ngga {
 		padding: 25px 30px !important;
 	}
 	#about {
-		padding: 0;
+		padding: 10px;
 	}
 }
 .about_btn a:hover{
