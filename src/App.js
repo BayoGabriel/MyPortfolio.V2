@@ -10,6 +10,7 @@ import Timeline from "./Components/Timeline";
 import Testimonial from "./Components/Testimonial";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import Blog from "./Components/Blog";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -37,6 +38,7 @@ const App = () => {
           <Portfolio />
           <Timeline />
           <Testimonial />
+          <Blog />
           <Contact />
           <Footer />
         </div>

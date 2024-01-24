@@ -18,6 +18,7 @@ function MyNav() {
             <Nav.Link href="#portfolio">Portfolio</Nav.Link>
             <Nav.Link href="#timeline">Timeline</Nav.Link>
             <Nav.Link href="#testimonial">Testimonial</Nav.Link>
+            <Nav.Link href="#blog">Blog</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
