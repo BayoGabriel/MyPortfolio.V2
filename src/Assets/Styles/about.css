@@ -75,21 +75,11 @@
 	}
 }
 .about_btn a:hover{
-	background-color: #848080;
-    color: #ffffff;
+	background-color: transparent;
+    color: #000000;
 	border: 1px solid #000;
-	transition: ease-in-out 1.5s;
+	transition: ease-in 500ms;
 }
-/* .each {
-	min-width: 100%;
-	margin-bottom: 10px;
-}
-.each .h2 {
-	background-color: #eaeaea;
-	color: #000000;
-	font-weight: 400;
-	font-size: 24px;
-} */
 .aright {
 	max-height: 100%;
 }

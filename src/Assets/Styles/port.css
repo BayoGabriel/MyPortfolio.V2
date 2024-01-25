@@ -28,3 +28,29 @@
 	margin-top: 5rem;
 	padding-top: 7.5rem;
 }
+.btns {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 25px;
+	margin-top: 10px;
+	padding: 20px;
+}
+.btns button {
+    display: inline-block;
+	margin: 10px;
+    padding: 10px 25px;
+    border: none;
+    margin-bottom: 2.5rem;
+	text-transform: uppercase;
+
+}
+.btns button:hover {
+	transition: ease-in 500ms;
+	background-color: #000000;
+	color: #eaeaea;
+}
+.btns .active {
+	background-color: #000000;
+	color: #eaeaea;
+}
