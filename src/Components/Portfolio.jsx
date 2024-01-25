@@ -1,8 +1,10 @@
 import React from 'react'
 import "../Assets/Styles/port.css"
-// import oner from '../Assets/Images/WhatsApp Image 2023-12-03 at 20.45.56_6e726a7e.jpg'
+import Carousel from './carousel';
 
 const Portfolio = () => {
+
+  
   return (
     <div className='big'>
         <div className="container-lg">
@@ -13,7 +15,7 @@ const Portfolio = () => {
               </div>
               <div className='row'>
               <div className="col-sm-12 lg-3">
-                
+              <Carousel/>
               </div>
               </div>
             </div>

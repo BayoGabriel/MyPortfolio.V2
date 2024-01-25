@@ -8,13 +8,14 @@ const Hero = () => {
 
  
   const [text] = useTypewriter({
-    words: ['Bayode'],
+    words: ['Software Engineer', 'Full-stack Developer'],
     loop: 0
   })
   const [text1] = useTypewriter({
-    words: ['Gabriel'],
+    words: ['Problem Solver', 'Continuous Learner', 'Quick Learner'],
     loop: 0
   })
+  
   
   return (
    <div className='container-lg' id='home'>
@@ -24,10 +25,10 @@ const Hero = () => {
       </div>
       <div className="col-lg-6 col-md-6 right">
         <div className="naw">
-        <h3 className="stroke">{text}</h3>
-        <h3>{text1}</h3>
+        <h3 className="stroke">BAYODE</h3>
+        <h3>Gabriel</h3>
         <div class="htt">           
-        <span>Front-End Design</span><span>Back-End Development</span>
+        <span>{text}</span><span>{text1}</span>
         </div>
         </div>
       </div>
