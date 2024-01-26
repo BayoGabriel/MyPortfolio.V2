@@ -71,4 +71,12 @@
 	.dfg:last-child {
 		margin-top: 2.5rem;
 	}
+	.body {
+		padding: 10px;
+	}
+}
+@media (max-width: 450px) {
+	.body {
+		padding: 0px;
+	}
 }

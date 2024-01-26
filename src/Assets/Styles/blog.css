@@ -34,3 +34,13 @@ img {
 .dfghj div {
 	padding: 25px;
 }
+@media (max-width: 450px) {
+	#blog {
+		padding: 0px;
+	}
+}
+@media (max-width: 767px) {
+	#blog {
+		padding: 10px;
+	}
+}

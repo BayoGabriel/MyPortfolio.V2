@@ -6,6 +6,7 @@ import "../Assets/Styles/nav.css"
 
 function MyNav() {
   return (
+    <>
     <Navbar expand="lg" className="idan" fixed="top">
       <Container>
         <Navbar.Brand href="#home"><img src={Logo} className='logo' alt="logo" /></Navbar.Brand>
@@ -24,6 +25,7 @@ function MyNav() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </>
   );
 }
 

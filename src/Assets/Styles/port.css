@@ -53,4 +53,46 @@
 .btns .active {
 	background-color: #000000;
 	color: #eaeaea;
+	border-radius: 25px;
+}
+.pro {
+	padding: 25px;	
+}
+.amza {
+	padding: 35px 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #ffffffbc;
+}
+.amza h4 {
+	margin-top: 5px;
+}
+.amza a {
+	color: #000000;
+	background-color: #eaeaea;
+	padding: 10px 25px;
+	width: fit-content;
+	text-decoration: none;
+	margin-top: 5px;
+}
+.amza:hover {
+	transform: scale(1.05);
+	transition: ease-in 0.3s;
+}
+.amza a:hover {
+	background-color: transparent;
+	border: 1px solid #000000;
+	border-radius: 25px;
+	transition: ease-in 50ms;
+}
+@media (max-width: 450px) {
+	.project {
+		padding: 0px;
+	}
+}
+@media (max-width: 767px) {
+	.project {
+		padding: 10px;
+	}
 }

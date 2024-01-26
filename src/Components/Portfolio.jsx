@@ -7,26 +7,56 @@ const Portfolio = () => {
 
   const projects = [
     {
-      title: 'Project 1',
-      category: 'html/css',
+      title: 'School Portal',
+      category: ['react', 'node'],
       img: oner,
-      text: "blah blah b;ah"
+      text: "A School management system",
+      link: ""
     },
     {
-      title: 'Project 2',
-      category: 'react',
-      img: oner
+      title: 'Agency Website',
+      category: ['react'],
+      img: oner,
+      text: "na ham na ham",
+      link: ""
     },
     {
       title: 'Project 3',
-      category: 'node',
-      img: oner
+      category: ['node'],
+      img: oner,
+      text: "na ham na ham",
+      link: ""
+    },
+    {
+      title: 'School Portal',
+      category: ['html/css', 'node'],
+      img: oner,
+      text: "na ham na ham",
+      link: ""
+    },
+    {
+      title: 'django lomo',
+      category: ['django'],
+      img: oner,
+      text: "na ham na ham",
+      link: ""
+    },
+    {
+      title: 'Project 3',
+      category: ['node'],
+      img: oner,
+      text: "na ham na ham",
+      link: ""
     },
   ];
 
   const handleCategoryClick = (category) => {
     setSelectedCategory(category.toLowerCase());
   };
+
+  const filteredProjects = selectedCategory === 'all'
+    ? projects
+    : projects.filter(project => project.category.includes(selectedCategory));
 
   return (
     <div className='big'>
@@ -48,15 +78,16 @@ const Portfolio = () => {
             ))}
           </div>
           <div className='row'>
-            {projects
-              .filter(project => selectedCategory === 'all' || project.category.toLowerCase() === selectedCategory)
-              .map((project, index) => (
-                <div key={index} className="col-sm-12 col-lg-4">
+            {filteredProjects.map((project, index) => (
+              <div key={index} className="col-sm-12 col-lg-4 pro">
+                <div className="amza">
                   <img src={project.img} alt="" />
                   <h4>{project.title}</h4>
                   <p>{project.text}</p>
+                  <a href={project.link}>Demo</a>
                 </div>
-              ))}
+              </div>
+            ))}
           </div>
         </div>
       </div>

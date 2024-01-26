@@ -96,3 +96,13 @@
 		margin-right: 0 !important;
 	}
 }
+@media (max-width: 450px) {
+	#home {
+		padding: 0px;
+	}
+}
+@media (max-width: 767px) {
+	#home {
+		padding: 10px;
+	}
+}

@@ -87,3 +87,13 @@
 	width: 1rem;
 	height: 1rem;
 }
+@media (max-width: 450px) {
+	#about {
+		padding: 0px;
+	}
+}
+@media (max-width: 767px) {
+	#about {
+		padding: 10px;
+	}
+}

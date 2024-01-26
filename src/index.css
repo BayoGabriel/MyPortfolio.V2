@@ -6,7 +6,5 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    max-width: 100%;
 }
-/* h1, h2, h3, h4, h5, h6, div, span, img, form, input, nav, {
-    max-width: 100% !important;
-} */

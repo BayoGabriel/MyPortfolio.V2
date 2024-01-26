@@ -5,7 +5,6 @@
 }
 .google {
 	width: 100%;
-	padding: 40px;
 	height: 400px;
 	outline: none;
 }
@@ -15,42 +14,26 @@
 .mage {
 	display: flex;
 	align-items: center;
+	width: 100%;
 }
-.mage a {
-	margin-left: 25px;
-}
-.mage a:first-child {
-	margin-left: 0;
-}
-.mage a img {
-	height: 1rem;
-}
-.out {
+.mgfst  {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 1rem;
-	border-radius: 50%;
-	transition: transform 0.3s ease;
-	background-color:  #f7f7f7;
+	flex-direction: column;
 }
-.out:hover {
-	transform: scale(1.2);
+.mgfst:last-child {
+	margin-left: 50px;
 }
-.soc img{
-	margin-right: 25px;
+.dejav {
+	padding: 25px;
 }
-.soc img:last-child {
-	margin-right: 0;
-}
-
 .trey {
 	border: none !important;
-	background-color: #ffffff;
+	margin-bottom: 10px;
 }
 .trey button:focus {
 	box-shadow: none;
 }
+
 .ngga {
 	width: 100% !important;
     background-color: #eaeaea !important;
@@ -59,11 +42,54 @@
 	font-size: 17px !important;
 	font-weight: 700 !important;
 	text-transform: uppercase;
+	text-align: start;
 	margin-bottom: 5px;
+}
+.crf {
+	display: flex;
+}
+.card .btn {
+	text-align: start;
+}
+.crf ul li {
+	list-style-type: none;
+}
+.crf .tesd {
+	margin-right: 200px;
+}
+.crf ul li {
+	margin-bottom: 5px;
+}
+.crf .tesd ul li a {
+	text-decoration: none;
+	color: #000000;
+	line-height: 1.1;
+}
+.crf .tesd ul li a:hover {
+	text-decoration: underline;
+	transition: ease-in .5s;
 }
 @media (max-width: 768px) {
 	.ngga {
 		padding: 25px 30px !important;
 	}
 }
-
+@media (max-width: 450px) {
+	.conuy {
+		padding: 0px;
+	}
+	.dejav {
+		padding: 0;
+	}
+}
+@media (max-width: 767px) {
+	.conuy {
+		padding: 10px;
+	}
+	.dejav {
+		padding: 5px;
+	}
+	.crf .tesd {
+		margin-right: 5px;
+	}
+}
