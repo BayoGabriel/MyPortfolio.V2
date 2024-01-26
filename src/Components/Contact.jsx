@@ -37,18 +37,16 @@ const Contact = () => {
           </div>
           <div id="collapseTwo" className="collapse" data-bs-parent="#accordion">
             <div className="card-body">
-              <div className="dejav mage">
-                <div className="mgfst">
-                  <a href="mailto:bayogabriel24@gmail.com">Facebook</a>
-                  <a href="https://github.com/BayoGabriel">Gthub</a>
-                  <a href="we.cum">Instagram</a>
-                </div>
-                <div className="mgfst">
-                  <a href="https://www.linkedin.com/in/bayogabr/">Linkedin</a>
-                  <a href="https://x.com/bayogabr">X</a>
-                  <a href="wa.me">Whatsapp</a>
-                </div>
-              </div>
+            <div className="social">
+            <ul>
+            <li><a class="line_effect" href="#">Facebook</a></li>
+            <li><a class="line_effect" href="#">Instagram</a></li>
+            <li><a class="line_effect" href="#">Behance</a></li>
+            <li><a class="line_effect" href="#">Dribbble</a></li>
+            <li><a class="line_effect" href="#">YouTube</a></li>
+            <li><a class="line_effect" href="#">Linkedin</a></li>
+            </ul>
+            </div>
             </div>
           </div>
           </div>
@@ -59,22 +57,27 @@ const Contact = () => {
           </div>
           <div id="collapseThree" className="collapse" data-bs-parent="#accordion">
               <div className="card-body">
-              <div className="crf dejav">
-                <div className="hesd">
-                  <ul>
-                    <li>Name:</li>
-                    <li>Phone:</li>
-                    <li>Email:</li>
-                  </ul>
-                </div>
-                <div className="tesd">
-                  <ul>
-                    <li>Bayode Gabriel</li>
-                    <li><a href="tel:+234 7068 4141 04">+234 7068 4141 04</a></li>
-                    <li><a href="mailto:bayogabriel24@gmail.com">bayogabriel24@gmail.com</a></li>
-                  </ul>
-                </div>
+              <div class="info_list">
+              <ul>
+              <li>
+              <span>Address:</span>
+              <span>Lagos, Nigeria</span>
+              </li>
+              <li>
+              <span>Email:</span>
+              <span><a class="line_effect" href="mailto:bayogabriel24@gmail.com"><span>Bayogabriel24@gmal.com</span></a></span>
+              </li>
+              <li>
+              <span>Phone:</span>
+              <span><a class="line_effect" href="tel:+2347068414104">+2347068414104</a></span>
+              </li>
+              <li>
+              <span>Website:</span>
+              <span><a class="line_effect" href="www.bayogabriel.vercel.app">www.bayogabriel.vercel.app</a></span>
+              </li>
+              </ul>
               </div>
+
               </div>
           </div>
           </div>
@@ -84,11 +87,9 @@ const Contact = () => {
           </div>
           <div id="collapseFour" className="collapse" data-bs-parent="#accordion">
               <div className="card-body">
-              <div className="dejav">
-                <form action="">
-
-                </form>
-              </div>
+                <div className="form_cont">
+                  
+                </div>
               </div>
           </div>
           </div>

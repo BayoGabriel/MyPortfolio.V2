@@ -73,6 +73,7 @@
 	.ngga {
 		padding: 25px 30px !important;
 	}
+	.info_list ul li span:first-child{min-width: auto;}
 }
 @media (max-width: 450px) {
 	.conuy {
@@ -92,4 +93,65 @@
 	.crf .tesd {
 		margin-right: 5px;
 	}
+}
+.social{
+	width: 100%;
+}
+.social ul{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -20px;
+}
+.social li{
+	width: 50%;
+	margin-bottom: 14px;
+	padding-left: 20px;
+	list-style-type: none;
+}
+.social li:last-child{
+	margin-bottom: 0px;
+}
+.social li a{
+	color: #000;
+	text-decoration: none;
+}
+.line_effect{
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	position: relative;
+}
+.line_effect:after{
+	content: '';
+    width: 0;
+    height: 1px;
+    position: absolute;
+    left: auto;
+    right: 0;
+    bottom: 3px;
+    transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
+    background: currentColor;
+}
+.line_effect:hover:after{
+	width:100%;
+	left:0;
+	right:auto;
+}
+.info_list{
+	width: 100%;
+}
+.info_list ul li{
+	width: 100%;
+	margin-bottom: 14px;
+}
+.accordion_wrap .info_list ul li:last-child{
+	margin-bottom: 0px;
+}
+.info_list ul li span{
+	display: inline-block;
+}.info_list ul li span:first-child{
+	min-width: 135px;padding-right: 20px;
+}
+.info_list ul li a{
+	color: #000;
 }
