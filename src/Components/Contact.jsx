@@ -1,12 +1,5 @@
 import React from 'react'
 import "../Assets/Styles/contact.css";
-import mal from "../Assets/Images/mail.svg";
-import x from "../Assets/Images/twitter.svg";
-import ln from "../Assets/Images/linkedin2.svg";
-import gth from "../Assets/Images/github.svg";
-import send from "../Assets/Images/send.svg";
-import axios from 'axios';
-import { useState } from 'react';
 
 const Contact = () => {
   return (
@@ -37,14 +30,14 @@ const Contact = () => {
           </div>
           <div id="collapseTwo" className="collapse" data-bs-parent="#accordion">
             <div className="card-body">
-            <div className="social">
+            <div className="social dejav">
             <ul>
-            <li><a class="line_effect" href="#">Facebook</a></li>
-            <li><a class="line_effect" href="#">Instagram</a></li>
-            <li><a class="line_effect" href="#">Behance</a></li>
-            <li><a class="line_effect" href="#">Dribbble</a></li>
-            <li><a class="line_effect" href="#">YouTube</a></li>
-            <li><a class="line_effect" href="#">Linkedin</a></li>
+            <li><a class="line_effect" href="#gfhf">Facebook</a></li>
+            <li><a class="line_effect" href="#gdhd">Instagram</a></li>
+            <li><a class="line_effect" href="#gdhd">Behance</a></li>
+            <li><a class="line_effect" href="#gdhd">Dribbble</a></li>
+            <li><a class="line_effect" href="#gdhd">YouTube</a></li>
+            <li><a class="line_effect" href="#gdhd">Linkedin</a></li>
             </ul>
             </div>
             </div>
@@ -57,7 +50,7 @@ const Contact = () => {
           </div>
           <div id="collapseThree" className="collapse" data-bs-parent="#accordion">
               <div className="card-body">
-              <div class="info_list">
+              <div class="info_list dejav">
               <ul>
               <li>
               <span>Address:</span>
@@ -65,7 +58,7 @@ const Contact = () => {
               </li>
               <li>
               <span>Email:</span>
-              <span><a class="line_effect" href="mailto:bayogabriel24@gmail.com"><span>Bayogabriel24@gmal.com</span></a></span>
+              <span><a class="line_effect" href="mailto:bayogabriel24@gmail.com">Bayogabriel24@gmal.com</a></span>
               </li>
               <li>
               <span>Phone:</span>
@@ -87,8 +80,8 @@ const Contact = () => {
           </div>
           <div id="collapseFour" className="collapse" data-bs-parent="#accordion">
               <div className="card-body">
-                <div className="form_cont">
-                  
+                <div className="form_cont dejav">
+
                 </div>
               </div>
           </div>

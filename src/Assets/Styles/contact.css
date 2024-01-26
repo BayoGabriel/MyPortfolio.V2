@@ -143,6 +143,7 @@
 .info_list ul li{
 	width: 100%;
 	margin-bottom: 14px;
+	list-style-type: none;
 }
 .accordion_wrap .info_list ul li:last-child{
 	margin-bottom: 0px;
