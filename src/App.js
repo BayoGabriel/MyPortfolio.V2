@@ -31,11 +31,11 @@ const App = () => {
         </>
       ) : (
         <>
-          {/* <NavBar /> */}
+          <NavBar />
           <Banner />
           <About />
           <Services />
-          {/* <Portfolio /> */}
+          <Portfolio />
           <Timeline />
           <Testimonial />
           <Blog />
