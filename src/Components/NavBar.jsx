@@ -1,33 +1,30 @@
-import Logo from "../Assets/Images/gabriel-high-resolution-logo-transparent.png"
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import logo from '../Assets/Images/gabriel-high-resolution-logo-black-transparent.png';
 import "../Assets/Styles/nav.css"
 
-function MyNav() {
+function BasicExample() {
   return (
-    <>
-      <nav class="navbar navbar-expand-lg barr">
-        <a class="navbar-brand" href="#home"><img className="logo" src={Logo} alt="logo" /></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#n">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#g">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#k">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#j">Disabled</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </>
+    <Navbar expand="lg" className="fixed-top">
+      <Container>
+        <Navbar.Brand href="#home"><img className='logo' src={logo} alt="logo" /></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#service">Servces</Nav.Link>
+            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="#timeline">Timeline</Nav.Link>
+            <Nav.Link href="#testimonial">Testimonial</Nav.Link>
+            <Nav.Link href="#blog">News</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 
-export default MyNav;
+export default BasicExample;

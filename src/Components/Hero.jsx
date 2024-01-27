@@ -20,10 +20,10 @@ const Hero = () => {
   return (
    <div className='container-lg' id='home'>
     <div className="row both">
-      <div className="col-lg-6 col-md-6 left">
+      <div className="col-lg-6 col-md-6 hleft">
       <img className="mgg" src={banner} alt='gh'/>
       </div>
-      <div className="col-lg-6 col-md-6 right">
+      <div className="col-lg-6 col-md-6 hright">
         <div className="naw">
         <h3 className="stroke">BAYODE</h3>
         <h3>Gabriel</h3>

@@ -33,14 +33,14 @@ const App = () => {
         <>
           <NavBar />
           <Banner />
-          {/* <About />
+          <About />
           <Services />
           <Portfolio />
           <Timeline />
           <Testimonial />
           <Blog />
           <Contact />
-          <Footer /> */}
+          <Footer />
         </>
       )}
     </div>
