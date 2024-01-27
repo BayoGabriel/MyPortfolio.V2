@@ -31,7 +31,7 @@ const App = () => {
         </>
       ) : (
         <>
-          <NavBar />
+          {/* <NavBar /> */}
           <Banner />
           <About />
           <Services />
