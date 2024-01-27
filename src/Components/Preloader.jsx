@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Assets/Styles/nav.css"
+import "../Assets/Styles/preloader.css"
 
 const Preloader = () => {
   return (

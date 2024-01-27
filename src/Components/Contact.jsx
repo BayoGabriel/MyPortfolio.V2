@@ -81,7 +81,22 @@ const Contact = () => {
           <div id="collapseFour" className="collapse" data-bs-parent="#accordion">
               <div className="card-body">
                 <div className="form_cont dejav">
-
+                  <form action="">
+                    <ul className='row'>
+                      <li className='merun'><input type="text" placeholder='Your Name'/></li>
+                      <li className='merun'><input type="email" placeholder='Email'/></li>
+                      <li className='merun'><input type="tel" placeholder='Phone'/></li>
+                      <li className='merun'>
+                      <select name="contact_subject" className="tyy" placeholder='Select Service'>
+                        <option value="" disabled>Select Service</option>
+                        <option value="Web Development">Web Development</option>
+                        <option value="Mobile Application">Mobile Application</option>
+                      </select>
+                      </li>
+                      <li className='merun'><textarea name="message" id="" placeholder='Your Message'></textarea></li>
+                      <li><button>Send Message</button></li>
+                    </ul>
+                  </form>
                 </div>
               </div>
           </div>

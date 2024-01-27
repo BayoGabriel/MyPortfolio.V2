@@ -10,9 +10,10 @@ const Blog = () => {
         <div className="container-lg">
             <div className="blog" id='blog'>
             <div className="header">
-                <span>Blog</span>
-                <h3>Recent Posts</h3>
-                <div className="row dfghj">
+              <span>Blog</span>
+              <h3>Recent Posts</h3>
+            </div>
+            <div className="row dfghj">
                   <div className="col-lg-4 col-md-6 col-sm-12">
                     <img src={blog1} alt="" />
                   </div>
@@ -23,7 +24,6 @@ const Blog = () => {
                     <img src={blog3} alt="" />
                   </div>
                 </div>
-            </div>
             </div>
         </div>
     </div>

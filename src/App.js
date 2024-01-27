@@ -26,22 +26,22 @@ const App = () => {
   return (
     <div className="app">
       {loading ? (
-        <div className="">
+        <>
           <Preloader/>
-        </div>
+        </>
       ) : (
-        <div className="main-content">
+        <>
           <NavBar />
           <Banner />
-          <About />
+          {/* <About />
           <Services />
           <Portfolio />
           <Timeline />
           <Testimonial />
           <Blog />
           <Contact />
-          <Footer />
-        </div>
+          <Footer /> */}
+        </>
       )}
     </div>
   );
