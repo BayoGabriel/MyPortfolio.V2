@@ -6,7 +6,7 @@ import "../Assets/Styles/nav.css"
 
 function BasicExample() {
   return (
-    <Navbar expand="lg" className="fixed-top">
+    <Navbar expand="lg" className="fixed-top bg-white">
       <Container>
         <Navbar.Brand href="#home"><img className='logo' src={logo} alt="logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
