@@ -6,19 +6,10 @@ import profile from "../Assets/Images/profile.svg"
 import "../Styles/Aboutme.css"
 import prev from "../Assets/Images/prev.svg"
 import next from "../Assets/Images/next.svg"
-import tola from "../Assets/Images/tola.jpeg"
+import tola from "../Assets/Images/WhatsApp Image 2023-12-03 at 20.45.56_6e726a7e.jpg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import styled from 'styled-components';
-const StyledDiv = styled.div`
-  
-  &:hover {
-    
-    color: ${(props) => props.afterColor};
-    border-color: ${(props) => props.afterColor};
-    
-  }
-`;
+
 
 const Portfolio = (props) => {
     const { prop1, prop2, prop3 } = props;
