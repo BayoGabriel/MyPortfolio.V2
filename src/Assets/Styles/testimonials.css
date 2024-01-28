@@ -1,7 +1,7 @@
 .conttt {
     padding: 50px;
 	margin-top: 5rem;
-	padding-top: 7.5rem;
+	padding-top: 5.0rem;
 }
 .header {
     width: 100%;
@@ -69,14 +69,9 @@
 	text-transform: uppercase;
 	font-size: 17px;
 }
-@media (max-width: 450px) {
-	.conttt {
-		padding: 0px;
-	}
-}
 @media (max-width: 767px) {
 	.conttt {
-		padding: 10px;
+		padding: 50px 10px 0 10px;
 	}
 	.testhead {padding: 25px 30px;}
 	.desc {

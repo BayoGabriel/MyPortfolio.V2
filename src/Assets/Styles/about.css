@@ -1,7 +1,7 @@
 #about {
 	padding: 50px;
 	margin-top: 5rem;
-	padding-top: 7.5rem;
+	padding-top: 5.0rem;
 }
 .big {
 	background-color: #f7f7f7;	
@@ -87,13 +87,8 @@
 	width: 1rem;
 	height: 1rem;
 }
-@media (max-width: 450px) {
-	#about {
-		padding: 0px;
-	}
-}
 @media (max-width: 767px) {
 	#about {
-		padding: 10px;
+		padding: 50px 10px 0px 10px;
 	}
 }

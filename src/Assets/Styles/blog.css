@@ -26,7 +26,7 @@
 #blog {
 	padding: 50px;
 	margin-top: 5rem;
-	padding-top: 7.5rem;
+	padding-top: 5.0rem;
 }
 img {
 	max-width: 100%;
@@ -34,13 +34,8 @@ img {
 .dfghj div {
 	padding: 25px;
 }
-@media (max-width: 450px) {
-	#blog {
-		padding: 0px;
-	}
-}
 @media (max-width: 767px) {
 	#blog {
-		padding: 10px;
+		padding: 50px 10px 0px 10px;
 	}
 }

@@ -4,7 +4,7 @@
 .body {
 	padding: 50px;
 	margin-top: 5rem;
-	padding-top: 7.5rem;
+	padding-top: 5.0rem;
 }
 .header {
     width: 100%;
@@ -72,11 +72,6 @@
 		margin-top: 2.5rem;
 	}
 	.body {
-		padding: 10px;
-	}
-}
-@media (max-width: 450px) {
-	.body {
-		padding: 0px;
+		padding: 50px 10px 0 10px;
 	}
 }

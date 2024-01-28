@@ -1,10 +1,11 @@
-
+.servcunt {
+	padding: 50px;
+	margin-top: 5rem;
+	padding-top: 5.0rem;
+}
 .service_cont {
     display: flex;
     justify-content: space-between;
-	padding: 50px;
-	margin-top: 5rem;
-	padding-top: 7.5rem;
 	max-width: 100%;
 }
 .service .inner{
@@ -46,13 +47,9 @@
 	top: 50%;
 	transform: translateY(-50%);
 }
-@media (max-width: 450px) {
-	.service_cont {
-		padding: 0px;
-	}
-}
+
 @media (max-width: 767px) {
-	.service_cont {
-		padding: 10px;
+	.servcunt {
+		padding: 50px 10px 0 10px;
 	}
 }
