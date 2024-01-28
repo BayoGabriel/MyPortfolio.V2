@@ -50,12 +50,12 @@
 	background-color: #ffffff;
 }
 .testb svg {
-	position: absolute;
+	/* position: absolute;
     bottom: -130px;
     right: -100px;
     width: 500px;
     height: 500px;
-    opacity: .07;
+    opacity: .07; */
 }
 .desc img {
 	display: inline-block;
