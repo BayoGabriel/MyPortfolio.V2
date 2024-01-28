@@ -35,9 +35,9 @@
 	margin-bottom: 25px;
 	margin-top: 10px;
 	padding: 20px;
+	max-width: 100% !important;
 }
 .btns button {
-    display: inline-block;
 	margin: 10px;
     padding: 10px 25px;
     border: none;
@@ -89,5 +89,8 @@
 @media (max-width: 767px) {
 	.project {
 		padding: 50px 10px 0 10px;
+	}
+	.btns {
+		margin: 0;
 	}
 }

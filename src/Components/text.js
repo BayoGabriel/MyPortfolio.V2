@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react'
-import "../Styles/port.css"
+import "../Assets/Styles/port.css"
 import imag from "../Assets/Images/kk.jpg"
 import mrsam from "../Assets/Images/mrsam.jpg"
 import profile from "../Assets/Images/profile.svg"
-import "../Styles/Aboutme.css"
+
 import prev from "../Assets/Images/prev.svg"
 import next from "../Assets/Images/next.svg"
 import tola from "../Assets/Images/WhatsApp Image 2023-12-03 at 20.45.56_6e726a7e.jpg"
@@ -14,9 +14,6 @@ import 'aos/dist/aos.css';
 const Portfolio = (props) => {
     const { prop1, prop2, prop3 } = props;
 
-    useEffect(() => {
-        AOS.init();
-      }, [])
     const [counter1, setCounter1] = useState(0)
     const [counter2, setCounter2] = useState(0)
     const [counter3, setCounter3] = useState(0)
@@ -110,124 +107,45 @@ const Portfolio = (props) => {
         add3()
     }
     const buttonRef = useRef(null);
-    
-    // useEffect(() => {
-    //     const intervalId = setInterval(() => {
-    //       if (buttonRef.current) {
-    //         buttonRef.current.click();
-    //       }
-    //     }, 4000);
-    
-    //     return () => {
-    //       clearInterval(intervalId);
-    //     };
-    //   }, []);
-    const linearGradient = 'linear-gradient(to right, #ff7e5f, #feb47b)';
-      const [hcolor, hsetColor] = useState("")
-      const [hcolor2, hsetColor2] = useState("")
-      const [hrad, hsetRad] = useState(0)
-      useEffect(() => {
-        const handleStorageChange = () => {
-          const savedState = JSON.parse(localStorage.getItem('myColorState'));
-          const savedState2 = JSON.parse(localStorage.getItem('myColorState2'));
-          const savedState3 = JSON.parse(localStorage.getItem('myRadiusState'));
-          if(typeof savedState3 === "number"){
-              hsetRad(savedState3)
-          }
-          if(typeof savedState === "string"){
-              hsetColor(savedState)
-          }
-          if(typeof savedState2 === "string"){
-              hsetColor2(savedState2)
-          }
-        };
-    
-        window.addEventListener('storage', handleStorageChange);
-    
-        return () => {
-          window.removeEventListener('storage', handleStorageChange);
-        };
-      }, []);
-      useEffect(()=>{
-        const savedState = JSON.parse(localStorage.getItem('myColorState'));
-        const savedState2 = JSON.parse(localStorage.getItem('myColorState2'));
-        const savedState3 = JSON.parse(localStorage.getItem('myRadiusState'));
-          if(typeof savedState3 === "number"){
-              hsetRad(savedState3)
-          }
-        if(typeof savedState === "string"){
-            hsetColor(savedState)
-        }
-        if(typeof savedState2 === "string"){
-            hsetColor2(savedState2)
-        }
-      },[])
   return (
     <>
         <div className='container-fluid p-0 aboutme'>
-            <div className='about'><p>REVIEWS</p></div>
-            <div className='container-fluid above'>
-                <p className='am'>REVIEWS</p>
-                <div className='anime' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}>
-                    <div className='move' style={{backgroundColor:`${prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "50%"}}></div>
-                </div>
-            </div>
             <div className='container'>
                 <div className='row crrow' data-aos="fade-up" data-aos-duration="1000">
                     <div className='col-xl-4'>
-                        <fieldset className='crfs' style={{borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}>
-                            <legend><img src={image1[counter1 % image1.length]} className="crimg" style={{borderColor:`${prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}`}}/></legend>
+                        <fieldset className='crfs'>
+                            <legend><img src={image1[counter1 % image1.length]} /></legend>
                             <p className='reviewp1'>{name1[counter1 % name1.length]}</p>
                             <p className='reviewp2'>{rel1[counter1 % rel1.length]}</p>
-                            <div className='star d-flex'>
-                                <p>&#9733;</p>
-                                <p>&#9733;</p>
-                                <p>&#9733;</p>
-                                <p>&#9733;</p>
-                                <p>&#9733;</p>
-                            </div>
+                            
                             <p className='reviewp3'>{quote1[counter1 % quote1.length]}</p>
                         </fieldset>
                     </div>
                     <div className='col-xl-4 hide'>
-                        <fieldset className='crfs' style={{borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}>
-                            <legend><img src={image2[counter2 % image2.length]} className="crimg" style={{borderColor:`${prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}`}}/></legend>
+                        <fieldset className='crfs'>
+                            <legend><img src={image2[counter2 % image2.length]} /></legend>
                             <p className='reviewp1'>{name2[counter2 % name2.length]}</p>
                             <p className='reviewp2'>{rel2[counter2 % rel2.length]}</p>
-                            <div className='star d-flex'>
-                                <p>&#9733;</p>
-                                <p>&#9733;</p>
-                                <p>&#9733;</p>
-                                <p>&#9733;</p>
-                                <p>&#9733;</p>
-                            </div>
                             <p className='reviewp3'>{quote2[counter2 % quote2.length]}</p>
                         </fieldset>
                     </div>
                     <div className='col-xl-4 crcol hide'>
-                        <fieldset className='crfs' style={{borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}>
-                            <legend><img src={image3[counter3 % image3.length]} className="crimg" style={{borderColor:`${prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}`}}/></legend>
+                        <fieldset>
+                            <img src={image3[counter3 % image3.length]}/>
                             <p className='reviewp1'>{name3[counter3 % name3.length]}</p>
                             <p className='reviewp2'>{rel3[counter3 % rel3.length]}</p>
-                            <div className='star d-flex'>
-                                <p>&#9733;</p>
-                                <p>&#9733;</p>
-                                <p>&#9733;</p>
-                                <p>&#9733;</p>
-                                <p>&#9733;</p>
-                            </div>
                             <p className='reviewp3'>{quote3[counter3 % quote3.length]}</p>
                         </fieldset>
                     </div>
                 </div>
             </div>
             <div className='revbtndiv pt-5'>
-                <StyledDiv afterColor={prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"} onClick={sub} className='revbutton2 mx-2'>
-                <span>←</span>
-                </StyledDiv>
-                <StyledDiv afterColor={prop1 && prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"} onClick={add} ref={buttonRef} className='revbutton mx-2'>
-                <span>→</span>
-                </StyledDiv>
+                <div onClick={sub} className='revbutton2 mx-2'>
+                <img src={prev} alt="" />
+                </div>
+                <div onClick={add} ref={buttonRef} className='revbutton mx-2'>
+                <img src={next} alt="" />
+                </div>
             </div>
         </div>
     </>
