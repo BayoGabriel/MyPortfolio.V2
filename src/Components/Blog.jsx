@@ -14,14 +14,25 @@ const Blog = () => {
               <h3>Recent Posts</h3>
             </div>
             <div className="row dfghj">
-                  <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="col-lg-4 col-md-6 col-sm-12 newsrow">
                     <img src={blog1} alt="" />
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-sm-12">
-                    <img src={blog2} alt="" />
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-sm-12">
-                    <img src={blog3} alt="" />
+                    <div className="details">
+                      <div className="meta">
+                        <span className="admin">
+                          By
+                          <a href="#blog" className="line-effect">Bayode</a>
+                        </span>
+                        <span className="category">
+                          In 
+                          <a href="#blog" className="line-effect">Web Design</a>
+                        </span>
+                      </div>
+                      <div className="title">
+                        <h3>
+                          <a href="#blog" className="text_hover_effect">Secrets of the Mobile Application</a>
+                        </h3>
+                      </div>
+                    </div>
                   </div>
                 </div>
             </div>

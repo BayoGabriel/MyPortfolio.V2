@@ -5,7 +5,7 @@ import Banner from "./Components/Hero"
 import React, { useState, useEffect } from 'react';
 import About from "./Components/About";
 import Services from "./Components/Services";
-// import Portfolio from "./Components/Portfolio";
+import Portfolio from "./Components/Portfolio";
 import Timeline from "./Components/Timeline";
 import Testimonial from "./Components/Testimonial";
 import Contact from "./Components/Contact";
@@ -35,7 +35,7 @@ const App = () => {
           <Banner />
           <About />
           <Services />
-          {/* <Portfolio /> */}
+          <Portfolio />
           <Timeline />
           <Testimonial />
           <Blog />
