@@ -40,7 +40,7 @@ const Portfolio = () => {
     <div className='big'>
       <div className="container-lg">
         <div className='project' id='portfolio'>
-          <div className="header">
+          <div className="header" data-aos="fade-left" data-aos-duration="1000ms">
             <span>Portfolio</span>
             <h3>My Works</h3>
           </div>
@@ -58,7 +58,7 @@ const Portfolio = () => {
             ))}
           </div>
             {filteredProjects.map((project, index) => (
-              <div key={index} className="col-sm-12 col-lg-4 pro">
+              <div key={index} className="col-sm-12 col-lg-4 pro" data-aos="fade-up" data-aos-duration="1000ms">
                 <div className="amza">
                   <img src={project.img} alt="" />
                   <h4>{project.title}</h4>

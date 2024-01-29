@@ -30,12 +30,12 @@ const Contact = () => {
       <div className="big">
         <div className="container-lg">
           <div className="conuy" id='contact'>
-          <div className="header">
+          <div className="header" data-aos="fade-left" data-aos-duration="1000ms">
             <span>contact</span>
             <h3>Let's talk</h3>
           </div>
           <div id="accordion">
-          <div className="card trey">
+          <div className="card trey" data-aos="fade-up" data-aos-duration="1000ms">
           <div className="btn card-header ngga" data-bs-toggle="collapse" href="#collapseOne">
           WORKING DAYS
           </div>
@@ -47,7 +47,7 @@ const Contact = () => {
               </div>
           </div>
           </div>
-          <div className="card trey">
+          <div className="card trey" data-aos="fade-up" data-aos-duration="1000ms">
           <div className="card-header ngga collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
               Social Profile
           </div>
@@ -67,7 +67,7 @@ const Contact = () => {
           </div>
           </div>
 
-          <div className="card trey">
+          <div className="card trey" data-aos="fade-up" data-aos-duration="1000ms">
           <div className=" card-header ngga collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
             OTHER INFO
           </div>
@@ -97,7 +97,7 @@ const Contact = () => {
               </div>
           </div>
           </div>
-          <div className="card trey">
+          <div className="card trey" data-aos="fade-up" data-aos-duration="1000ms">
           <div className="card-header ngga collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
           FILL THE FORM
           </div>
@@ -124,7 +124,7 @@ const Contact = () => {
               </div>
           </div>
           </div>
-          <div className="card trey">
+          <div className="card trey" data-aos="fade-up" data-aos-duration="1000ms">
           <div className="card-header ngga collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
             Location
           </div>

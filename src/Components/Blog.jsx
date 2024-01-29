@@ -9,12 +9,12 @@ const Blog = () => {
     <div>
         <div className="container-lg">
             <div className="blog" id='blog'>
-            <div className="header">
+            <div className="header" data-aos="fade-up" data-aos-duration="1000ms">
               <span>Blog</span>
               <h3>Recent Posts</h3>
             </div>
             <div className="row dfghj">
-                  <div className="col-lg-4 col-md-6 col-sm-12 newsrow">
+                  <div className="col-lg-4 col-md-6 col-sm-12 newsrow" data-aos="fade-up" data-aos-duration="1000ms">
                     <div className="image">
                     <img src={blog1} alt="" />
                     </div>
@@ -34,7 +34,7 @@ const Blog = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-4 col-md-6 col-sm-12 newsrow">
+                  <div className="col-lg-4 col-md-6 col-sm-12 newsrow" data-aos="fade-up" data-aos-duration="1000ms">
                     <div className="image">
                     <img src={blog2} alt="" />
                     </div>
@@ -54,7 +54,7 @@ const Blog = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-4 col-md-6 col-sm-12 newsrow">
+                  <div className="col-lg-4 col-md-6 col-sm-12 newsrow" data-aos="fade-up" data-aos-duration="1000ms">
                     <div className="image">
                     <img src={blog3} alt="" />
                     </div>

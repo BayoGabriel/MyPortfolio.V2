@@ -15,24 +15,24 @@ const Services = () => {
     <> 
         <div className="container-lg">
             <div className="servcunt" id='service'>
-            <div className="header" data-aos="fade-up" data-aos-duration="2000">
+            <div className="header" data-aos="fade-up" data-aos-duration="1000">
                 <span>Services</span>
                 <h3>Quality Services</h3>
             </div>
             <div className="row service_cont">
-                <div className="col-md-6 col-lg-4 col-sm-12 service" data-aos="fade-right" dat-aos-duration="4000">
+                <div className="col-md-6 col-lg-4 col-sm-12 service" data-aos="fade-up" data-aos-duration="1000ms">
                     <div className="inner">
                     <img src={design} alt="alf" />
                     <h4>Responsive Design</h4>
                     <hr />
                     <ul className='list'>
-                        <li>span</li>
+                        <li>CSS</li>
                         <li>Bootstrap</li>
                         <li>Modern Animations</li>
                     </ul>
                     </div>
                 </div>
-                <div className="col-md-6 col-lg-4 col-sm-12 service" data-aos="fade-right" dat-aos-duration="6000">
+                <div className="col-md-6 col-lg-4 col-sm-12 service" data-aos="fade-up" dat-aos-duration="1000ms">
                    <div className="inner">
                    <img src={web} alt="alf" />
                     <h4>Web Development</h4>
@@ -44,7 +44,7 @@ const Services = () => {
                     </ul>
                    </div>
                 </div>
-                <div className="col-md-6 col-lg-4 col-sm-12 service" data-aos="fade-right" dat-aos-duration="8000">
+                <div className="col-md-6 col-lg-4 col-sm-12 service" data-aos="fade-up" dat-aos-duration="1000ms">
                     <div className="inner">
                     <img src={mobile} alt="alf" />
                     <h4>App Development</h4>

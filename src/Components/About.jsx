@@ -29,8 +29,8 @@ const About = () => {
         <div className="big">
             <div className="container-lg" id="about">
                 <div className="row detail">
-                    <div className="col-lg-6 aleft" data-aos="fade-up" data-aos-duration="3000">
-                        <div className="header" data-aos="fade-up" data-aos-duration="2000">
+                    <div className="col-lg-6 aleft" data-aos="fade-up" data-aos-duration="1000">
+                        <div className="header" data-aos="fade-up" data-aos-duration="1000">
                             <span>Gabriel Bayode</span> 
                             <h3>FullStack Developer since 2022</h3>
                         </div>
@@ -41,9 +41,9 @@ const About = () => {
                         <a href="../Assets/Bayode_Gabriel_CV.pdf" download="">Download CV</a>
                         </div>
                     </div>
-                    <div className="col-lg-6 aright" data-aos="fade-down" data-aos-duration="3000">
+                    <div className="col-lg-6 aright">
                         <div className="accordion" id="accordionExample">
-                        <div className="accordion-item hj">
+                        <div className="accordion-item hj" data-aos="fade-up" data-aos-duration="1000ms">
                             <h2 className="accordion-header a-header" id="headingOne">
                             <button className="accordion-button ngga" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             Front-End Stack
@@ -82,7 +82,7 @@ const About = () => {
                             </div>
                             </div>
                         </div>
-                        <div className="accordion-item hj">
+                        <div className="accordion-item hj" data-aos="fade-up" data-aos-duration="1000ms">
                             <h2 className="accordion-header a-header" id="headingTwo">
                             <button className="accordion-button ngga collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Back-End Stack
@@ -113,7 +113,7 @@ const About = () => {
                             </div>
                             </div>
                         </div>
-                        <div className="accordion-item hj">
+                        <div className="accordion-item hj" data-aos="fade-up" data-aos-duration="1000ms">
                             <h2 className="accordion-header" id="headingThree">
                             <button className="accordion-button ngga collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 Others

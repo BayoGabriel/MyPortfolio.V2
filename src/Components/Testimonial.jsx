@@ -8,19 +8,19 @@ const Testimonial = () => {
     <div id='testimonial' className='big'>
         <div className="container-lg testimonial_section">
             <div className="conttt">
-            <div className="header">
+            <div className="header" data-aos="fade-left" data-aos-duration="1000ms">
                 <span>Testimonial</span>
                 <h3>Valuable Feedback</h3>
             </div>
             <div className="testb">
-              <div className="testhead">
+              <div className="testhead" data-aos="fade-up" data-aos-duration="1000ms">
                 <div className="tre">
                   <h4>Amzat AbdulMalik</h4>
                   <span>Software Developer</span>
                 </div>
                 <img src={ayo} alt="" />
               </div>
-              <div className="desc">
+              <div className="desc" data-aos="fade-up" data-aos-duration="1000ms">
               <div className='star d-flex'>
                                 <p>&#9733;</p>
                                 <p>&#9733;</p>
