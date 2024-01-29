@@ -1,7 +1,30 @@
+import { useState, useRef } from "react";
 import React from 'react'
 import "../Assets/Styles/contact.css";
+import emailjs from '@emailjs/browser';
+import toast from 'react-hot-toast';
 
 const Contact = () => {
+
+  const form = useRef();
+    const [loading, setLoading] = useState(false)
+  const sendEmail = (e) => {
+    setLoading(true)
+    e.preventDefault();
+    emailjs.sendForm('service_u5r9l9e', 'template_pjvsoej', form.current, 'gSULIKJWkfY2u3IeJ')
+    .then((result) => {
+        setLoading(false)
+        toast.success('Sent', {
+    position: 'top-right',
+  })
+    }, (error) => {
+        setLoading(false)
+        toast.error('Something went wrong', {
+    position: 'bottom-center',
+  })
+    });
+
+};
   return (
     <>
       <div className="big">
@@ -81,7 +104,7 @@ const Contact = () => {
           <div id="collapseFour" className="collapse" data-bs-parent="#accordion">
               <div className="card-body">
                 <div className="form_cont dejav">
-                  <form action="">
+                  <form ref={form} onSubmit={sendEmail}>
                     <ul className='row'>
                       <li className='merun'><input type="text" placeholder='Your Name'/></li>
                       <li className='merun'><input type="email" placeholder='Email'/></li>
@@ -94,7 +117,7 @@ const Contact = () => {
                       </select>
                       </li>
                       <li className='merun'><textarea name="message" id="" placeholder='Your Message'></textarea></li>
-                      <li><button>Send Message</button></li>
+                      <li><button type="submit" value="Send">Send Message</button></li>
                     </ul>
                   </form>
                 </div>
