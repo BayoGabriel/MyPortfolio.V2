@@ -105,9 +105,12 @@
 .text_hover_effect:hover{
 	background-size: 100% 1px;
 }
-
+.newsrow {
+	margin-bottom: 2.5rem;
+}
 @media (max-width: 767px) {
 	#blog {
 		padding: 50px 10px 0px 10px;
 	}
+	
 }

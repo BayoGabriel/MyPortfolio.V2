@@ -28,7 +28,7 @@ const Testimonial = () => {
                                 <p>&#9733;</p>
                                 <p>&#9733;</p>
                             </div>
-                <p>I generally begin with what people are doing well. It’s too deflating for them if you start by immediately identifying all the things that are wrong. There’s a tipping point when any more negative feedback could shatter their confidence. If it’s really bad work, I ask them to stop and have a different kind of discussion. There are times where you may need just to say, ‘Stop, we need to reset. I generally begin with what people are doing well. It’s too deflating for them if you start by immediately identifying all the things that are wrong.</p>
+                <p>Bayode Gabriel consistently delivers high-quality code within deadlines, displays strong teamwork, communication, and problem-solving skills. An asset to any project.</p>
               </div>
               {/* <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="svg replaced-svg">
                 <path d="M9.13456 9H12.1346L10 14.6075H7L9.13456 9Z" fill="#000000"></path>

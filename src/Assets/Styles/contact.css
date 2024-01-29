@@ -86,9 +86,9 @@
 	.dejav {
 		padding: 5px;
 	}
-	.crf .tesd {
+	/* .crf .tesd {
 		margin-right: 5px;
-	}
+	} */
 }
 .social{
 	width: 100%;
@@ -157,6 +157,9 @@
 	padding: 10px;
 	width: 50%;
 }
+form {
+	width: 100%;
+}
 .form_cont ul li:nth-last-child(2) {
 	width: 100%;
 }
@@ -209,4 +212,14 @@ textarea:focus {
     border: none!important;
     cursor: pointer;
     font-size: 16px;
+}
+@media (max-width: 768px) {
+	.form_cont ul li {
+		margin: 0 !important;
+		padding: 2px;
+		width: 100%;
+	}
+	.form_cont ul li {
+		width: 100%;
+	}
 }

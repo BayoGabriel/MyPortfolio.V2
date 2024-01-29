@@ -2,23 +2,11 @@
     font-family: 'Archivo Black', sans-serif !important;
 }
 @media (max-width: 768px) {
-	.erling_tm_service .service_list > ul{margin: 0px;}
-	.erling_tm_service .service_list > ul > li{width: 100%;padding-left: 0px;}
-	.news_list ul{margin: 0px;}
-	.news_list ul li{width: 100%;padding-left: 0px;}
-	.erling_tm_contact .form_wrapper ul{margin: 0px;}
-	.erling_tm_contact .form_wrapper ul li{width: 100%;padding-left: 0px;}
-	.erling_tm_contact .enter_code input{width: 100%;}
-	.accordion_wrap 
-	.erling_tm_copyright .inner{flex-direction: column;}
-	.erling_tm_copyright .logo{margin-bottom: 15px;}
-	.erling_tm_copyright .logo img{max-width: 110px;max-height: 70px;}
-	.erling_tm_service .service_list .list_inner{padding: 60px 30px;}
-	.erling_tm_experience .box ul li .list_inner{padding: 40px 35px 35px 35px;}
-	.accordion_wrap .accordion_header{padding: 25px 30px;}
-	.accordion_wrap .accordion_content{padding: 30px;}
-	.erling_tm_testimonials .short{padding: 25px 30px;}
-	.erling_tm_testimonials .desc{padding: 40px 30px 60px 30px}
-	.erling_tm_experience .box .title{padding: 25px 30px;}
-	.erling_tm_experience .box ul li .list_inner{padding: 40px 30px 35px 30px;}
-}
+    .header h3{
+        font-size: 25px !important;
+        font-weight: 700;
+    }
+    .header span{
+        padding-left: 30px !important;
+    }
+	}

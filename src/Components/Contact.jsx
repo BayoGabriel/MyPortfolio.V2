@@ -105,18 +105,18 @@ const Contact = () => {
               <div className="card-body">
                 <div className="form_cont dejav">
                   <form ref={form} onSubmit={sendEmail}>
-                    <ul className='row'>
-                      <li className='merun'><input type="text" placeholder='Your Name'/></li>
-                      <li className='merun'><input type="email" placeholder='Email'/></li>
-                      <li className='merun'><input type="tel" placeholder='Phone'/></li>
-                      <li className='merun'>
+                    <ul className=''>
+                      <li><input type="text" name="User_name" placeholder='Your Name'/></li>
+                      <li><input type="email" name="User_email" placeholder='Email'/></li>
+                      <li><input type="tel" name="user_tel" placeholder='Phone'/></li>
+                      <li>
                       <select name="contact_subject" className="tyy" placeholder='Select Service'>
-                        <option value="" disabled>Select Service</option>
+                        <option value="" disabled >Select Service</option>
                         <option value="Web Development">Web Development</option>
                         <option value="Mobile Application">Mobile Application</option>
                       </select>
                       </li>
-                      <li className='merun'><textarea name="message" id="" placeholder='Your Message'></textarea></li>
+                      <li><textarea name="message" id="" placeholder='Your Message'></textarea></li>
                       <li><button type="submit" value="Send">Send Message</button></li>
                     </ul>
                   </form>
