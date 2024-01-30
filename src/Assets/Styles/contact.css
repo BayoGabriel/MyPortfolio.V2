@@ -22,6 +22,7 @@
 .trey button:focus {
 	box-shadow: none;
 }
+
 .ngga {
 	width: 100% !important;
     background-color: #eaeaea !important;
@@ -44,6 +45,17 @@
 		padding: 25px 30px !important;
 	}
 	.info_list ul li span:first-child{min-width: auto;}
+	.social li{
+		width: 50%;
+		margin-bottom: 14px;
+		padding-left: 0px !important;
+	}
+	.form_cont {
+		margin: 0 !important;
+	}
+	.form_cont ul {
+		margin: 0 !important;
+	}
 }
 @media (max-width: 767px) {
 	.conuy {
@@ -59,10 +71,12 @@
 .social ul{
 	display: flex;
 	flex-wrap: wrap;
+	margin-left: -20px;
 }
 .social li{
 	width: 50%;
 	margin-bottom: 14px;
+	padding-left: 20px;
 	list-style-type: none;
 }
 .social li:last-child{
@@ -102,7 +116,7 @@
 	margin-bottom: 14px;
 	list-style-type: none;
 }
-.accordion_wrap .info_list ul li:last-child{
+.info_list ul li:last-child{
 	margin-bottom: 0px;
 }
 .info_list ul li span{
@@ -116,9 +130,6 @@
 .form_cont ul li {
 	list-style-type: none;
 	padding: 10px;
-
-}
-.form_cont ul li:nth-last-child(2) {
 	width: 100%;
 }
 .form_cont ul li input {
