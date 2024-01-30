@@ -85,7 +85,7 @@
 	color: #000;
 	text-decoration: none;
 }
-.text_hover_effect{
+/* .text_hover_effect{
 	position: relative;
 	display: inline;
 	background-image: linear-gradient(currentColor, currentColor);
@@ -93,14 +93,9 @@
     background-repeat: no-repeat;
     background-size: 0% 1px;
     transition: background-size .5s;
-}
+} */
 .text_hover_effect:after{
 	content: '';
-	position: absolute;
-	top: -5px;
-	left: -5px;
-	right: -5px;
-	bottom: -5px;
 }
 .text_hover_effect:hover{
 	background-size: 100% 1px;

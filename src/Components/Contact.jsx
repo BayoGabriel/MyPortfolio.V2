@@ -35,7 +35,7 @@ const Contact = () => {
             <h3>Let's talk</h3>
           </div>
           <div id="accordion">
-          <div className="card trey" data-aos="fade-up" data-aos-duration="1000ms">
+          <div className="card trey" data-aos-offset="-200" data-aos="fade-up" data-aos-duration="1000ms">
           <div className="btn card-header ngga" data-bs-toggle="collapse" href="#collapseOne">
           WORKING DAYS
           </div>
@@ -47,7 +47,7 @@ const Contact = () => {
               </div>
           </div>
           </div>
-          <div className="card trey" data-aos="fade-up" data-aos-duration="1000ms">
+          <div className="card trey" data-aos-offset="-200" data-aos="fade-up" data-aos-duration="1000ms">
           <div className="card-header ngga collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
               Social Profile
           </div>
@@ -66,8 +66,7 @@ const Contact = () => {
             </div>
           </div>
           </div>
-
-          <div className="card trey" data-aos="fade-up" data-aos-duration="1000ms">
+          <div className="card trey" data-aos-offset="-200" data-aos="fade-up" data-aos-duration="1000ms">
           <div className=" card-header ngga collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
             OTHER INFO
           </div>
@@ -97,7 +96,7 @@ const Contact = () => {
               </div>
           </div>
           </div>
-          <div className="card trey" data-aos="fade-up" data-aos-duration="1000ms">
+          <div className="card trey" data-aos-offset="-200" data-aos="fade-up" data-aos-duration="1000ms">
           <div className="card-header ngga collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
           FILL THE FORM
           </div>
@@ -124,7 +123,7 @@ const Contact = () => {
               </div>
           </div>
           </div>
-          <div className="card trey" data-aos="fade-up" data-aos-duration="1000ms">
+          <div className="card trey" data-aos-offset="-200" data-aos="fade-up" data-aos-duration="1000ms">
           <div className="card-header ngga collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
             Location
           </div>
@@ -141,7 +140,6 @@ const Contact = () => {
               </div>
           </div>
           </div>
-
           </div>
           </div>
         </div>
