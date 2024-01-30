@@ -11,18 +11,6 @@
 .google:hover {
 	transform: scale(1.02);
 }
-.mage {
-	display: flex;
-	align-items: center;
-	width: 100%;
-}
-.mgfst  {
-	display: flex;
-	flex-direction: column;
-}
-.mgfst:last-child {
-	margin-left: 50px;
-}
 .dejav {
 	padding: 25px;
 	color: #868a9b !important;
@@ -34,7 +22,6 @@
 .trey button:focus {
 	box-shadow: none;
 }
-
 .ngga {
 	width: 100% !important;
     background-color: #eaeaea !important;
@@ -49,29 +36,8 @@
 .ngga:focus {
 	box-shadow: none;
 }
-.crf {
-	display: flex;
-}
 .card .btn {
 	text-align: start;
-}
-.crf ul li {
-	list-style-type: none;
-}
-.crf .tesd {
-	margin-right: 200px;
-}
-.crf ul li {
-	margin-bottom: 5px;
-}
-.crf .tesd ul li a {
-	text-decoration: none;
-	color: #000000;
-	line-height: 1.1;
-}
-.crf .tesd ul li a:hover {
-	text-decoration: underline;
-	transition: ease-in .5s;
 }
 @media (max-width: 768px) {
 	.ngga {
@@ -86,9 +52,6 @@
 	.dejav {
 		padding: 5px;
 	}
-	.crf .tesd {
-		margin-right: 5px;
-	}
 }
 .social{
 	width: 100%;
@@ -96,12 +59,10 @@
 .social ul{
 	display: flex;
 	flex-wrap: wrap;
-	margin-left: -20px;
 }
 .social li{
 	width: 50%;
 	margin-bottom: 14px;
-	padding-left: 20px;
 	list-style-type: none;
 }
 .social li:last-child{
