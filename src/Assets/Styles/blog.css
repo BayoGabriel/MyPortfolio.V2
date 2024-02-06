@@ -28,9 +28,6 @@
 	margin-top: 5rem;
 	padding-top: 5.0rem;
 }
-.newsrow {
-	clear: both;
-}
 .newsrow  img {
 	margin-bottom: 10px;
 	object-position: center;
@@ -42,31 +39,6 @@
 	width: 100%;
     background-color: #eaeaea;
     padding: 15px 30px;
-}
-.meta span{
-	position: relative;
-	display: inline-block;
-	padding-right: 15px;
-	margin-right: 10px;
-	gap: 5px;
-}
-.meta span:after{
-	position: absolute;
-	content: "";
-	width: 6px;
-	height: 6px;
-	background-color: rgba(0,0,0,.15);
-	right: 0px;
-	top: 50%;
-	transform: translateY(-50%);
-	border-radius: 100%;
-}
-.meta span:last-child{
-	margin: 0px;
-	padding: 0px;
-}
-.meta span:last-child:after{
-	display: none;
 }
 .meta a{
 	color: #868a9b;
@@ -106,6 +78,5 @@
 @media (max-width: 767px) {
 	#blog {
 		padding: 50px 10px 0px 10px;
-	}
-	
+	}	
 }

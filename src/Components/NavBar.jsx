@@ -15,7 +15,7 @@ function BasicExample() {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#service">Servces</Nav.Link>
-            {/* <Nav.Link href="#portfolio">Portfolio</Nav.Link> */}
+            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
             <Nav.Link href="#timeline">Timeline</Nav.Link>
             <Nav.Link href="#testimonial">Testimonial</Nav.Link>
             <Nav.Link href="#blog">News</Nav.Link>

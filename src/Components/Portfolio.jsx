@@ -47,7 +47,7 @@ const Portfolio = () => {
          
           <div className='row'>
              <div className="btns ">
-            {['all', 'html/css', 'reactjs', 'node', 'django'].map(category => (
+            {['all', 'html/css', 'reactjs', 'node'].map(category => (
               <button
                 key={category}
                 className={selectedCategory === category ? 'active' : ''}

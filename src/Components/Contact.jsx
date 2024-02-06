@@ -55,10 +55,10 @@ const Contact = () => {
             <div className="card-body">
             <div className="social dejav">
             <ul>
-            <li><a class="line_effect" href="#gfhf">Facebook</a></li>
-            <li><a class="line_effect" href="#gdhd">Github</a></li>
-            <li><a class="line_effect" href="#gdhd">Twitter</a></li>
-            <li><a class="line_effect" href="#gdhd">Linkedin</a></li>
+            <li><a class="line_effect" href="https://www.facebook.com/bayodegabriel27">Facebook</a></li>
+            <li><a class="line_effect" href="https://github.com/BayoGabriel">Github</a></li>
+            <li><a class="line_effect" href="https://twitter.com/bayogabr">X</a></li>
+            <li><a class="line_effect" href="https://www.linkedin.com/in/bayogabr">Linkedin</a></li>
             </ul>
             </div>
             </div>

@@ -21,10 +21,7 @@ const Blog = () => {
                     <div className="details">
                       <div className="meta">
                         <span className="admin">
-                          <a href="#blog" className="line_effect">Bayode</a> 
-                        </span>
-                        <span className="admin">
-                          <a href="#blog" className="line_effect">App Development</a>
+                          <a href="#blog" className="line_effect">Bayode Gabriel</a> 
                         </span>
                       </div>
                       <div className="title">
@@ -41,10 +38,7 @@ const Blog = () => {
                     <div className="details">
                       <div className="meta">
                         <span className="admin">
-                          <a href="#blog" className="line_effect">Bayode</a>
-                        </span>
-                        <span className="admin">
-                          <a href="#blog" className="line_effect">Programming</a>
+                          <a href="#blog" className="line_effect">Bayode Gabriel</a>
                         </span>
                       </div>
                       <div className="title">
@@ -61,11 +55,9 @@ const Blog = () => {
                     <div className="details">
                       <div className="meta">
                         <span className="admin">
-                          <a href="#blog" className="line_effect">Bayode</a>
+                          <a href="#blog" className="line_effect">Bayode Gabriel</a>
                         </span>
-                        <span className="admin">
-                          <a href="#blog" className="line_effect">Design</a>
-                        </span>
+                     
                       </div>
                       <div className="title">
                         <h3>

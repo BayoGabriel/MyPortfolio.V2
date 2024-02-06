@@ -26,7 +26,7 @@ const Services = () => {
                     <h4>Responsive Design</h4>
                     <hr />
                     <ul className='list'>
-                        <li>CSS</li>
+                        <li>Tailwind</li>
                         <li>Bootstrap</li>
                         <li>Modern Animations</li>
                     </ul>
@@ -39,8 +39,8 @@ const Services = () => {
                     <hr />
                     <ul className='list'>
                         <li>NodeJs</li>
-                        <li>Python(Django)</li>
-                        <li>Javascript(React)</li>
+                        <li>ReactJs</li>
+                        <li>MongoDB</li>
                     </ul>
                    </div>
                 </div>

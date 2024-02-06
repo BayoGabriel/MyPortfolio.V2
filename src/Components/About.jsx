@@ -71,10 +71,10 @@ const About = () => {
                                     <img src={react} alt="svf" /> <span>React.js</span>
                                     <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                 </div>
-                                <div className="ass">
+                                {/* <div className="ass">
                                     <img src={rn} alt="svf" /> <span>React Native</span>
                                     <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                </div>
+                                </div> */}
                                 <div className="ass">
                                     <img src={redux} alt="svf" /> <span>Redux</span>
                                     <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
@@ -98,14 +98,14 @@ const About = () => {
                                     <img src={Nodejs} alt="svf" /> <span>Node.js</span>
                                     <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                 </div>
-                                <div className="ass">
+                                {/* <div className="ass">
                                     <img src={Python} alt="svf" /> <span>Python</span>
                                     <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
                                 </div>
                                 <div className="ass">
                                     <img src={Flask} alt="svf" /> <span>Flask</span>
                                     <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
-                                </div>
+                                </div> */}
                                 <div className="ass">
                                     <img src={NoSQL} alt="svf" /> <span>NoSQL (MongoDB)</span>
                                     <ProgressBar variant="secondary" now={95} style={{height: '5px', marginTop: '5px'}}/>
