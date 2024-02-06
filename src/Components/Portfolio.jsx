@@ -46,7 +46,7 @@ const Portfolio = () => {
           </div>
          
           <div className='row'>
-             <div className="btns">
+             <div className="btns ">
             {['all', 'html/css', 'reactjs', 'node', 'django'].map(category => (
               <button
                 key={category}

@@ -56,10 +56,8 @@ const Contact = () => {
             <div className="social dejav">
             <ul>
             <li><a class="line_effect" href="#gfhf">Facebook</a></li>
-            <li><a class="line_effect" href="#gdhd">Instagram</a></li>
-            <li><a class="line_effect" href="#gdhd">Behance</a></li>
-            <li><a class="line_effect" href="#gdhd">Dribbble</a></li>
-            <li><a class="line_effect" href="#gdhd">YouTube</a></li>
+            <li><a class="line_effect" href="#gdhd">Github</a></li>
+            <li><a class="line_effect" href="#gdhd">Twitter</a></li>
             <li><a class="line_effect" href="#gdhd">Linkedin</a></li>
             </ul>
             </div>
