@@ -28,7 +28,7 @@ const Hero = () => {
         <h3 className="stroke">BAYODE</h3>
         <h3>Gabriel</h3>
         <div class="htt">           
-        <span>{text}</span><span>{text1}</span>
+        <span>FullStack</span><span>Developer</span>
         </div>
         </div>
       </div>
