@@ -33,8 +33,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    margin-top: 60px;
-}
+ }
 .btns button {
 	margin: 10px;
     padding: 10px 25px;
@@ -88,4 +87,9 @@
 	.project {
 		padding: 50px 10px 0 10px;
 	}
+	.btns {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 3px;
+	 }
 }
