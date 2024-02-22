@@ -8,7 +8,7 @@ const Testimonial = () => {
     <div id='testimonial' className='big'>
         <div className="container-lg testimonial_section">
             <div className="conttt">
-            <div className="header" data-aos="fade-left" data-aos-duration="1000ms">
+            <div className="header" data-aos="fade-up" data-aos-duration="1000ms">
                 <span>Testimonial</span>
                 <h3>Valuable Feedback</h3>
             </div>

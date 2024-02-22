@@ -30,7 +30,7 @@ const Contact = () => {
       <div className="big">
         <div className="container-lg">
           <div className="conuy" id='contact'>
-          <div className="header" data-aos="fade-left" data-aos-duration="1000ms">
+          <div className="header" data-aos="fade-up" data-aos-duration="1000ms">
             <span>contact</span>
             <h3>Let's talk</h3>
           </div>

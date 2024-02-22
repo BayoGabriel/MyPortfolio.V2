@@ -40,7 +40,7 @@ const Portfolio = () => {
     <div className='big'>
       <div className="container-lg">
         <div className='project' id='portfolio'>
-          <div className="header" data-aos="fade-left" data-aos-duration="1000ms">
+          <div className="header" data-aos="fade-up" data-aos-duration="1000ms">
             <span>Portfolio</span>
             <h3>My Works</h3>
           </div>

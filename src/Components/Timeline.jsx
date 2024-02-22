@@ -6,12 +6,12 @@ const Timeline = () => {
     <div id="timeline">
       <div className="container-lg cont_tml">
         <div className="row body">
-        <div className="header" data-aos="fade-left" data-aos-duration="1000ms">
+        <div className="header" data-aos="fade-up" data-aos-duration="1000ms">
           <span>Timeline</span>
           <h3>Timeline Period</h3>
         </div>
           <div className="col-lg-6 col-md-6 dfg">
-            <div className="tt" data-aos="fade-left" data-aos-duration="1000ms"><h3>Experience</h3></div>
+            <div className="tt" data-aos="fade-up" data-aos-duration="1000ms"><h3>Experience</h3></div>
             <div className="item" data-aos="fade-up" data-aos-duration="1000ms">
               <div className="exp">
               <h4>ITB Tech</h4>
@@ -41,7 +41,7 @@ const Timeline = () => {
             </div>
           </div>
           <div className="col-lg-6 col-md-6 dfg">
-            <div className="tt" data-aos="fade-left" data-aos-duration="1000ms"><h3>Education</h3></div>
+            <div className="tt" data-aos="fade-up" data-aos-duration="1000ms"><h3>Education</h3></div>
             <div className="item" data-aos="fade-up" data-aos-duration="1000ms">
               <div className="exp">
               <h4>Meta</h4>
