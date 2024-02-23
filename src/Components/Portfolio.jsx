@@ -75,9 +75,11 @@ const Portfolio = () => {
               <div key={index} className="col-sm-12 col-lg-4 pro" data-aos="fade-up" data-aos-duration="1000ms">
                 <div className="amza">
                   <img src={project.img} alt="" />
+                  <div className="descrrrr">
                   <h4>{project.title}</h4>
                   <p>{project.text}</p>
                   <span > <a className='about_btn' target='_blank' rel="noopener noreferrer" href={project.link}>View Demo</a></span>
+                  </div>
                 </div>
               </div>
             ))}
