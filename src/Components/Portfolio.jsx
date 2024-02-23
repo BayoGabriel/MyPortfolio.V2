@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import "../Assets/Styles/port.css";
 import sms from "../Assets/Images/WhatsApp Image 2023-12-03 at 20.45.56_6e726a7e.jpg";
-import itb from '../Assets/Images/itb.jpeg'
+import itb from '../Assets/Images/ignio.jpeg'
 import diver from '../Assets/Images/diversi.jpeg'
+import xty from '../Assets/Images/xty.jpeg'
 
 const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -12,20 +13,33 @@ const Portfolio = () => {
       title: 'School Portal',
       category: ['react', 'node'],
       img: sms,
-      text: "A school management system"
-    },
-    {
-      title: 'Project 2',
-      category: ['html/css'],
-      img: diver,
-      text: 'An investment landing page'
+      text: "A school management system",
+      link: 'http://schoolmsdemo.netlify.app/'
     },
     {
       title: 'Agency Website',
       category: ['reactjs'],
       img: itb,
-      text: 'An agency portfolio website'
+      text: 'An agency portfolio website',
+      link: 'ignio.vercel.app'
     },
+    {
+      title: 'SEO Website',
+      category: ['html/css'],
+      img: xty,
+      text: 'A simple SEO website for a company',
+      link: 'https://xvty.vercel.app/'
+    },
+    {
+      title: 'Diversicap',
+      category: ['html/css'],
+      img: diver,
+      text: 'An investment landing page',
+      link: 'diversicap.com'
+    },
+    {
+
+    }
   ];
 
   const handleCategoryClick = (category) => {
@@ -63,6 +77,7 @@ const Portfolio = () => {
                   <img src={project.img} alt="" />
                   <h4>{project.title}</h4>
                   <p>{project.text}</p>
+                  <span > <a className='about_btn' target='_blank' rel="noopener noreferrer" href={project.link}>View Demo</a></span>
                 </div>
               </div>
             ))}
