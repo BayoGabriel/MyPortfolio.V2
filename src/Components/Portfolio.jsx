@@ -4,7 +4,7 @@ import sms from "../Assets/Images/WhatsApp Image 2023-12-03 at 20.45.56_6e726a7e
 import itb from '../Assets/Images/ignio.jpeg'
 import diver from '../Assets/Images/diversi.jpeg'
 import xty from '../Assets/Images/xty.jpeg'
-
+import kwik from '../Assets/Images/book.jpeg'
 const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
 
@@ -27,8 +27,15 @@ const Portfolio = () => {
       title: 'SEO Website',
       category: ['html/css'],
       img: xty,
-      text: 'A simple SEO website for a company',
+      text: 'A simple SEO website',
       link: 'https://xvty.vercel.app/'
+    },
+    {
+      title: 'BooKwik',
+      category: ['react'],
+      img: kwik,
+      text: 'A SaaS Website',
+      link: 'https://bookwik-psi.vercel.app/'
     },
     {
       title: 'Diversicap',
@@ -36,9 +43,6 @@ const Portfolio = () => {
       img: diver,
       text: 'An investment landing page',
       link: 'diversicap.com'
-    },
-    {
-
     }
   ];
 

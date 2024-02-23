@@ -53,7 +53,8 @@
 	border-radius: 25px;
 }
 .pro {
-	padding: 5px;	
+	padding: 5px;
+	height: 400px !important;	
 }
 .amza {
 	padding: 5px 5px 25px 5px;
@@ -61,6 +62,10 @@
 	flex-direction: column;
 	justify-content: center;
 	background-color: #ffffffbc;
+	height: 100% !important;
+}
+.descrrrr {
+	padding: 25px;
 }
 .amza h4 {
 	margin-top: 5px;
@@ -73,15 +78,18 @@
 	text-decoration: none;
 	margin-top: 5px;
 }
-.amza:hover {
+/* .amza:hover {
 	transform: scale(1.05);
 	transition: ease-in 0.3s;
-}
+} */
 .amza a:hover {
 	background-color: transparent;
 	border: 1px solid #000000;
 	border-radius: 25px;
 	transition: ease-in 50ms;
+}
+.amza img {
+	height: 200px !important;
 }
 @media (max-width: 767px) {
 	.project {
